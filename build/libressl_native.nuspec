@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>libressl_native</id>
+        <title>LibreSSL for VS2019+</title>
+        <version>3.5.3</version>
+        <authors>Michael R Sweet, LibreSSL, OpenSSL</authors>
+        <owners>michaelrsweet</owners>
+        <projectUrl>https://www.libressl.org/</projectUrl>
+        <license type="expression">ISC</license>
+        <readme>build/native/README.md</readme>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>LibreSSL is a version of the TLS/crypto stack forked from OpenSSL in 2014, with goals of modernizing the codebase, improving security, and applying best practice development processes. This package contains the header and link libraries for Visual Studio 2019+.</description>
+        <copyright>Copyright (c) 1998-2011 The OpenSSL Project. Copyright (C) 1995-1998 Eric Young.</copyright>
+        <tags>tls native</tags>
+	<dependencies>
+	    <dependency id="libressl_native.redist" version="3.5.3" />
+	</dependencies>
+    </metadata>
+    <files>
+        <file src="README.md" target="build\native" />
+        <file src="libressl_native.props" target="build\native" />
+        <file src="..\include\*.h" target="build\native\include" />
+        <file src="..\include\openssl\*.h" target="build\native\include\openssl" />
+        <file src="crypto\Debug\*.lib" target="build\native\lib\x64\Debug" />
+        <file src="crypto\Release\*.lib" target="build\native\lib\x64\Release" />
+        <file src="ssl\Debug\*.lib" target="build\native\lib\x64\Debug" />
+        <file src="ssl\Release\*.lib" target="build\native\lib\x64\Release" />
+        <file src="tls\Debug\*.lib" target="build\native\lib\x64\Debug" />
+        <file src="tls\Release\*.lib" target="build\native\lib\x64\Release" />
+    </files>
+</package>
