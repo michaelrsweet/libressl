@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\micha\source\repos\libressl\ssl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\bio_ssl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_both.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_lib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_pkt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_srtp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\pqueue.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\s3_cbc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\s3_lib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_algs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_asn1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_both.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_cert.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_ciph.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_ciphers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_clnt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_err.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_kex.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_lib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_methods.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_packet.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_pkt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_rsa.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_sess.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_sigalgs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_srvr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_stat.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_tlsext.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_transcript.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_txt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_versions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\t1_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\t1_lib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls_buffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls_content.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls_key_share.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls12_key_schedule.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls12_lib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls12_record_layer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_client.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_error.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_handshake.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_handshake_msg.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_key_schedule.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_legacy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_lib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_record.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_record_layer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_server.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{781C9DA3-C0E0-3531-A798-5BFF3546FA34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

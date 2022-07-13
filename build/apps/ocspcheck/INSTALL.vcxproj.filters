@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\micha\source\repos\libressl\build\CMakeFiles\b69d787b792880b066154f558dbfb2d6\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CA069CEB-AD59-3312-BF0B-1696049294C9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
