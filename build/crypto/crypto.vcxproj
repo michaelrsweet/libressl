@@ -119,9 +119,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>../crypto/Debug/crypto-49.lib</ImportLibrary>
-      <ModuleDefinitionFile>../crypto/crypto_p.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>../crypto/Debug/crypto-49.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Debug/crypto-49.lib</ImportLibrary>
+      <ModuleDefinitionFile>crypto_p.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>Debug/crypto-49.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -163,9 +163,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>../crypto/Release/crypto-49.lib</ImportLibrary>
-      <ModuleDefinitionFile>../crypto/crypto_p.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>../crypto/Release/crypto-49.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Release/crypto-49.lib</ImportLibrary>
+      <ModuleDefinitionFile>crypto_p.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>Release/crypto-49.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -207,9 +207,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>../crypto/MinSizeRel/crypto-49.lib</ImportLibrary>
-      <ModuleDefinitionFile>../crypto/crypto_p.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>../crypto/MinSizeRel/crypto-49.pdb</ProgramDataBaseFile>
+      <ImportLibrary>MinSizeRel/crypto-49.lib</ImportLibrary>
+      <ModuleDefinitionFile>crypto_p.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>MinSizeRel/crypto-49.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -250,9 +250,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>../crypto/RelWithDebInfo/crypto-49.lib</ImportLibrary>
-      <ModuleDefinitionFile>../crypto/crypto_p.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>../crypto/RelWithDebInfo/crypto-49.pdb</ProgramDataBaseFile>
+      <ImportLibrary>RelWithDebInfo/crypto-49.lib</ImportLibrary>
+      <ModuleDefinitionFile>crypto_p.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>RelWithDebInfo/crypto-49.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>

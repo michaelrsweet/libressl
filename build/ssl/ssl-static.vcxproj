@@ -265,7 +265,7 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="crypto\crypto-static.vcxproj">
+    <ProjectReference Include="crypto-static.vcxproj">
       <Project>{43D00D8A-C69A-378E-9427-E8E03A8940A1}</Project>
       <Name>crypto-static</Name>
     </ProjectReference>

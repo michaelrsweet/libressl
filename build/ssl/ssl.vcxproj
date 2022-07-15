@@ -119,9 +119,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>../ssl/Debug/ssl-52.lib</ImportLibrary>
-      <ModuleDefinitionFile>../ssl/ssl.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>../ssl/Debug/ssl-52.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Debug/ssl-52.lib</ImportLibrary>
+      <ModuleDefinitionFile>ssl.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>Debug/ssl-52.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -163,9 +163,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>../ssl/Release/ssl-52.lib</ImportLibrary>
-      <ModuleDefinitionFile>../ssl/ssl.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>../ssl/Release/ssl-52.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Release/ssl-52.lib</ImportLibrary>
+      <ModuleDefinitionFile>ssl.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>Release/ssl-52.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -207,9 +207,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>../ssl/MinSizeRel/ssl-52.lib</ImportLibrary>
-      <ModuleDefinitionFile>../ssl/ssl.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>../ssl/MinSizeRel/ssl-52.pdb</ProgramDataBaseFile>
+      <ImportLibrary>MinSizeRel/ssl-52.lib</ImportLibrary>
+      <ModuleDefinitionFile>ssl.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>MinSizeRel/ssl-52.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -250,9 +250,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>../ssl/RelWithDebInfo/ssl-52.lib</ImportLibrary>
-      <ModuleDefinitionFile>../ssl/ssl.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>../ssl/RelWithDebInfo/ssl-52.pdb</ProgramDataBaseFile>
+      <ImportLibrary>RelWithDebInfo/ssl-52.lib</ImportLibrary>
+      <ModuleDefinitionFile>ssl.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>RelWithDebInfo/ssl-52.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -327,7 +327,7 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="crypto\crypto.vcxproj">
+    <ProjectReference Include="crypto.vcxproj">
       <Project>{99A79F64-0C4D-3D19-9B2C-820D383AE3E0}</Project>
       <Name>crypto</Name>
     </ProjectReference>
