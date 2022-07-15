@@ -78,7 +78,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
       <ExceptionHandling>
@@ -132,10 +132,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
       <ExceptionHandling>
@@ -167,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -183,7 +183,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
@@ -201,10 +201,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>..\ssl\.;..\ssl\..\crypto\bio;..\ssl\..\include\compat;..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ssl\.;..\..\ssl\..\crypto\bio;..\..\ssl\..\include\compat;..\..\ssl\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -216,55 +216,55 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\ssl\bio_ssl.c" />
-    <ClCompile Include="..\ssl\d1_both.c" />
-    <ClCompile Include="..\ssl\d1_lib.c" />
-    <ClCompile Include="..\ssl\d1_pkt.c" />
-    <ClCompile Include="..\ssl\d1_srtp.c" />
-    <ClCompile Include="..\ssl\pqueue.c" />
-    <ClCompile Include="..\ssl\s3_cbc.c" />
-    <ClCompile Include="..\ssl\s3_lib.c" />
-    <ClCompile Include="..\ssl\ssl_algs.c" />
-    <ClCompile Include="..\ssl\ssl_asn1.c" />
-    <ClCompile Include="..\ssl\ssl_both.c" />
-    <ClCompile Include="..\ssl\ssl_cert.c" />
-    <ClCompile Include="..\ssl\ssl_ciph.c" />
-    <ClCompile Include="..\ssl\ssl_ciphers.c" />
-    <ClCompile Include="..\ssl\ssl_clnt.c" />
-    <ClCompile Include="..\ssl\ssl_err.c" />
-    <ClCompile Include="..\ssl\ssl_init.c" />
-    <ClCompile Include="..\ssl\ssl_kex.c" />
-    <ClCompile Include="..\ssl\ssl_lib.c" />
-    <ClCompile Include="..\ssl\ssl_methods.c" />
-    <ClCompile Include="..\ssl\ssl_packet.c" />
-    <ClCompile Include="..\ssl\ssl_pkt.c" />
-    <ClCompile Include="..\ssl\ssl_rsa.c" />
-    <ClCompile Include="..\ssl\ssl_sess.c" />
-    <ClCompile Include="..\ssl\ssl_sigalgs.c" />
-    <ClCompile Include="..\ssl\ssl_srvr.c" />
-    <ClCompile Include="..\ssl\ssl_stat.c" />
-    <ClCompile Include="..\ssl\ssl_tlsext.c" />
-    <ClCompile Include="..\ssl\ssl_transcript.c" />
-    <ClCompile Include="..\ssl\ssl_txt.c" />
-    <ClCompile Include="..\ssl\ssl_versions.c" />
-    <ClCompile Include="..\ssl\t1_enc.c" />
-    <ClCompile Include="..\ssl\t1_lib.c" />
-    <ClCompile Include="..\ssl\tls_buffer.c" />
-    <ClCompile Include="..\ssl\tls_content.c" />
-    <ClCompile Include="..\ssl\tls_key_share.c" />
-    <ClCompile Include="..\ssl\tls12_key_schedule.c" />
-    <ClCompile Include="..\ssl\tls12_lib.c" />
-    <ClCompile Include="..\ssl\tls12_record_layer.c" />
-    <ClCompile Include="..\ssl\tls13_client.c" />
-    <ClCompile Include="..\ssl\tls13_error.c" />
-    <ClCompile Include="..\ssl\tls13_handshake.c" />
-    <ClCompile Include="..\ssl\tls13_handshake_msg.c" />
-    <ClCompile Include="..\ssl\tls13_key_schedule.c" />
-    <ClCompile Include="..\ssl\tls13_legacy.c" />
-    <ClCompile Include="..\ssl\tls13_lib.c" />
-    <ClCompile Include="..\ssl\tls13_record.c" />
-    <ClCompile Include="..\ssl\tls13_record_layer.c" />
-    <ClCompile Include="..\ssl\tls13_server.c" />
+    <ClCompile Include="..\..\ssl\bio_ssl.c" />
+    <ClCompile Include="..\..\ssl\d1_both.c" />
+    <ClCompile Include="..\..\ssl\d1_lib.c" />
+    <ClCompile Include="..\..\ssl\d1_pkt.c" />
+    <ClCompile Include="..\..\ssl\d1_srtp.c" />
+    <ClCompile Include="..\..\ssl\pqueue.c" />
+    <ClCompile Include="..\..\ssl\s3_cbc.c" />
+    <ClCompile Include="..\..\ssl\s3_lib.c" />
+    <ClCompile Include="..\..\ssl\ssl_algs.c" />
+    <ClCompile Include="..\..\ssl\ssl_asn1.c" />
+    <ClCompile Include="..\..\ssl\ssl_both.c" />
+    <ClCompile Include="..\..\ssl\ssl_cert.c" />
+    <ClCompile Include="..\..\ssl\ssl_ciph.c" />
+    <ClCompile Include="..\..\ssl\ssl_ciphers.c" />
+    <ClCompile Include="..\..\ssl\ssl_clnt.c" />
+    <ClCompile Include="..\..\ssl\ssl_err.c" />
+    <ClCompile Include="..\..\ssl\ssl_init.c" />
+    <ClCompile Include="..\..\ssl\ssl_kex.c" />
+    <ClCompile Include="..\..\ssl\ssl_lib.c" />
+    <ClCompile Include="..\..\ssl\ssl_methods.c" />
+    <ClCompile Include="..\..\ssl\ssl_packet.c" />
+    <ClCompile Include="..\..\ssl\ssl_pkt.c" />
+    <ClCompile Include="..\..\ssl\ssl_rsa.c" />
+    <ClCompile Include="..\..\ssl\ssl_sess.c" />
+    <ClCompile Include="..\..\ssl\ssl_sigalgs.c" />
+    <ClCompile Include="..\..\ssl\ssl_srvr.c" />
+    <ClCompile Include="..\..\ssl\ssl_stat.c" />
+    <ClCompile Include="..\..\ssl\ssl_tlsext.c" />
+    <ClCompile Include="..\..\ssl\ssl_transcript.c" />
+    <ClCompile Include="..\..\ssl\ssl_txt.c" />
+    <ClCompile Include="..\..\ssl\ssl_versions.c" />
+    <ClCompile Include="..\..\ssl\t1_enc.c" />
+    <ClCompile Include="..\..\ssl\t1_lib.c" />
+    <ClCompile Include="..\..\ssl\tls_buffer.c" />
+    <ClCompile Include="..\..\ssl\tls_content.c" />
+    <ClCompile Include="..\..\ssl\tls_key_share.c" />
+    <ClCompile Include="..\..\ssl\tls12_key_schedule.c" />
+    <ClCompile Include="..\..\ssl\tls12_lib.c" />
+    <ClCompile Include="..\..\ssl\tls12_record_layer.c" />
+    <ClCompile Include="..\..\ssl\tls13_client.c" />
+    <ClCompile Include="..\..\ssl\tls13_error.c" />
+    <ClCompile Include="..\..\ssl\tls13_handshake.c" />
+    <ClCompile Include="..\..\ssl\tls13_handshake_msg.c" />
+    <ClCompile Include="..\..\ssl\tls13_key_schedule.c" />
+    <ClCompile Include="..\..\ssl\tls13_legacy.c" />
+    <ClCompile Include="..\..\ssl\tls13_lib.c" />
+    <ClCompile Include="..\..\ssl\tls13_record.c" />
+    <ClCompile Include="..\..\ssl\tls13_record_layer.c" />
+    <ClCompile Include="..\..\ssl\tls13_server.c" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ZERO_CHECK.vcxproj">
