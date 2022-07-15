@@ -116,7 +116,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\ssl\Debug\ssl-52.lib;..\..\crypto\Debug\crypto-49.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\ssl\Debug\ssl.lib;..\..\crypto\Debug\crypto.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -161,7 +161,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\ssl\Release\ssl-52.lib;..\..\crypto\Release\crypto-49.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\ssl\Release\ssl.lib;..\..\crypto\Release\crypto.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -206,7 +206,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\ssl\MinSizeRel\ssl-52.lib;..\..\crypto\MinSizeRel\crypto-49.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\ssl\MinSizeRel\ssl.lib;..\..\crypto\MinSizeRel\crypto.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -250,7 +250,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\ssl\RelWithDebInfo\ssl-52.lib;..\..\crypto\RelWithDebInfo\crypto-49.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\ssl\RelWithDebInfo\ssl.lib;..\..\crypto\RelWithDebInfo\crypto.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -317,17 +317,11 @@
     <ClCompile Include="..\..\..\apps\openssl\compat\poll_win.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\build\ZERO_CHECK.vcxproj">
-      <Project>{7E6C04ED-4288-39F4-BFAF-05D686A888B9}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\build\crypto\crypto.vcxproj">
+    <ProjectReference Include="..\..\crypto\crypto.vcxproj">
       <Project>{99A79F64-0C4D-3D19-9B2C-820D383AE3E0}</Project>
       <Name>crypto</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\build\ssl\ssl.vcxproj">
+    <ProjectReference Include="..\..\ssl\ssl.vcxproj">
       <Project>{E56F9FE5-9509-3A85-8242-5F4F5BDB66E8}</Project>
       <Name>ssl</Name>
     </ProjectReference>
