@@ -1,8 +1,8 @@
-if(NOT EXISTS "C:/Users/micha/source/repos/libressl/build/install_manifest.txt")
-	message(FATAL_ERROR "Cannot find install manifest: C:/Users/micha/source/repos/libressl/build/install_manifest.txt")
-endif(NOT EXISTS "C:/Users/micha/source/repos/libressl/build/install_manifest.txt")
+if(NOT EXISTS "C:/Users/micha/source/repos/michaelrsweet/libressl/build/install_manifest.txt")
+	message(FATAL_ERROR "Cannot find install manifest: C:/Users/micha/source/repos/michaelrsweet/libressl/build/install_manifest.txt")
+endif(NOT EXISTS "C:/Users/micha/source/repos/michaelrsweet/libressl/build/install_manifest.txt")
 
-file(READ "C:/Users/micha/source/repos/libressl/build/install_manifest.txt" files)
+file(READ "C:/Users/micha/source/repos/michaelrsweet/libressl/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
 	message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

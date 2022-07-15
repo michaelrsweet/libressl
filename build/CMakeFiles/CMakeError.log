@@ -482,3 +482,487 @@ C:\Users\micha\source\repos\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_a4f79.
 
 
 
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8004 : '/V' requires an argument
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8004 : '/V' requires an argument
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '-qversion'
+cl : Command line error D8003 : missing source filename
+Determining if the function asprintf exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_8310f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=asprintf /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8310f.dir\Debug\\" /Fd"cmTC_8310f.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol asprintf referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_8310f.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_8310f.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_8310f.vcxproj]
+
+
+
+Determining if the function reallocarray exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_c92ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=reallocarray /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c92ee.dir\Debug\\" /Fd"cmTC_c92ee.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol reallocarray referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_c92ee.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_c92ee.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_c92ee.vcxproj]
+
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_c9d31.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9d31.dir\Debug\\" /Fd"cmTC_c9d31.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasecmp referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_c9d31.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_c9d31.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_c9d31.vcxproj]
+
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_8a9bb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcat /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a9bb.dir\Debug\\" /Fd"cmTC_8a9bb.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strlcat referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_8a9bb.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_8a9bb.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_8a9bb.vcxproj]
+
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_307bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcpy /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_307bf.dir\Debug\\" /Fd"cmTC_307bf.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strlcpy referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_307bf.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_307bf.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_307bf.vcxproj]
+
+
+
+Determining if the function strndup exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_5ac54.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strndup /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ac54.dir\Debug\\" /Fd"cmTC_5ac54.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strndup referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_5ac54.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_5ac54.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_5ac54.vcxproj]
+
+
+
+Determining if the function strsep exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_fa2fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strsep /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa2fa.dir\Debug\\" /Fd"cmTC_fa2fa.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strsep referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_fa2fa.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_fa2fa.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_fa2fa.vcxproj]
+
+
+
+Determining if the function timegm exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_16b13.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=timegm /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16b13.dir\Debug\\" /Fd"cmTC_16b13.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol timegm referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_16b13.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_16b13.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_16b13.vcxproj]
+
+
+
+Determining if the function arc4random_buf exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_52a7e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=arc4random_buf /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52a7e.dir\Debug\\" /Fd"cmTC_52a7e.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol arc4random_buf referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_52a7e.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_52a7e.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_52a7e.vcxproj]
+
+
+
+Determining if the function arc4random_uniform exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_35a45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=arc4random_uniform /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35a45.dir\Debug\\" /Fd"cmTC_35a45.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol arc4random_uniform referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_35a45.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_35a45.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_35a45.vcxproj]
+
+
+
+Determining if the function explicit_bzero exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_f513f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=explicit_bzero /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f513f.dir\Debug\\" /Fd"cmTC_f513f.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol explicit_bzero referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_f513f.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_f513f.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_f513f.vcxproj]
+
+
+
+Determining if the function getauxval exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_e3c75.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getauxval /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3c75.dir\Debug\\" /Fd"cmTC_e3c75.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getauxval referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_e3c75.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_e3c75.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_e3c75.vcxproj]
+
+
+
+Determining if the function getentropy exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_a5f13.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getentropy /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5f13.dir\Debug\\" /Fd"cmTC_a5f13.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getentropy referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_a5f13.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_a5f13.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_a5f13.vcxproj]
+
+
+
+Determining if the getpagesize exist failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_dfaa0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfaa0.dir\Debug\\" /Fd"cmTC_dfaa0.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_dfaa0.vcxproj]
+
+
+File C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function getprogname exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_34743.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getprogname /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34743.dir\Debug\\" /Fd"cmTC_34743.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getprogname referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_34743.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_34743.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_34743.vcxproj]
+
+
+
+Determining if the function syslog_r exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_fe06c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=syslog_r /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe06c.dir\Debug\\" /Fd"cmTC_fe06c.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol syslog_r referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_fe06c.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_fe06c.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_fe06c.vcxproj]
+
+
+
+Determining if the function syslog exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_f7404.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=syslog /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7404.dir\Debug\\" /Fd"cmTC_f7404.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol syslog referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_f7404.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_f7404.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_f7404.vcxproj]
+
+
+
+Determining if the timespecsub exist failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_2780f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2780f.dir\Debug\\" /Fd"cmTC_2780f.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_2780f.vcxproj]
+
+
+File C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timespecsub
+  return ((int*)(&timespecsub))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function timingsafe_bcmp exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_b21c1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=timingsafe_bcmp /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b21c1.dir\Debug\\" /Fd"cmTC_b21c1.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol timingsafe_bcmp referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_b21c1.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_b21c1.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_b21c1.vcxproj]
+
+
+
+Determining if the function timingsafe_memcmp exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_98233.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=timingsafe_memcmp /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98233.dir\Debug\\" /Fd"cmTC_98233.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol timingsafe_memcmp referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_98233.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_98233.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_98233.vcxproj]
+
+
+
+Determining if the function memmem exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_b6119.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memmem /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6119.dir\Debug\\" /Fd"cmTC_b6119.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol memmem referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_b6119.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_b6119.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_b6119.vcxproj]
+
+
+
+Determining if files endian.h exist failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_06ee4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_ENDIAN_H.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06ee4.dir\Debug\\" /Fd"cmTC_06ee4.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ENDIAN_H.c
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ENDIAN_H.c(2,10): fatal error C1083: Cannot open include file: 'endian.h': No such file or directory [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_06ee4.vcxproj]
+
+
+Source:
+/* */
+#include <endian.h>
+
+
+int main(void){return 0;}
+
+Determining if files err.h exist failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_cc95e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_ERR_H.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc95e.dir\Debug\\" /Fd"cmTC_cc95e.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c(2,10): fatal error C1083: Cannot open include file: 'err.h': No such file or directory [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_cc95e.vcxproj]
+
+
+Source:
+/* */
+#include <err.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h;arpa/inet.h;netinet/ip.h exist failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_20e00.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_NETINET_IP_H.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20e00.dir\Debug\\" /Fd"cmTC_20e00.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IP_H.c
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IP_H.c(3,10): fatal error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_20e00.vcxproj]
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <netinet/ip.h>
+
+
+int main(void){return 0;}
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_bad77.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bad77.dir\Debug\\" /Fd"cmTC_bad77.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol clock_gettime referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_bad77.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_bad77.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_bad77.vcxproj]
+
+
+
+Determining if the function pipe2 exists failed with the following output:
+Change Dir: C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_fc6d8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pipe2 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc6d8.dir\Debug\\" /Fd"cmTC_fc6d8.dir\Debug\vc142.pdb" /external:W4 /Gd /TC /wd4018 /wd4057 /wd4100 /wd4127 /wd4146 /wd4244 /wd4245 /wd4267 /wd4389 /wd4706 /wd4996 /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol pipe2 referenced in function main [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_fc6d8.vcxproj]
+C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc6d8.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CMakeTmp\cmTC_fc6d8.vcxproj]
+
+
+

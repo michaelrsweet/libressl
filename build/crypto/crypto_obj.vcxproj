@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D20E33FF-1614-302E-B6D5-6508D27ADAB9}</ProjectGuid>
+    <ProjectGuid>{43FA5774-B8DB-3AA7-BA32-EE75EB45876F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -78,7 +78,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;OPENSSL_NO_ASM;OPENSSLDIR=\"C:/Windows/libressl/ssl\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
       <ExceptionHandling>
@@ -132,10 +132,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;OPENSSL_NO_ASM;OPENSSLDIR=\"C:/Windows/libressl/ssl\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
       <ExceptionHandling>
@@ -167,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;OPENSSL_NO_ASM;OPENSSLDIR=\"C:/Windows/libressl/ssl\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -183,7 +183,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
@@ -201,10 +201,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;OPENSSL_NO_ASM;OPENSSLDIR=\"C:/Windows/libressl/ssl\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\crypto\.;C:\Users\micha\source\repos\libressl\crypto\asn1;C:\Users\micha\source\repos\libressl\crypto\bio;C:\Users\micha\source\repos\libressl\crypto\bn;C:\Users\micha\source\repos\libressl\crypto\bytestring;C:\Users\micha\source\repos\libressl\crypto\dh;C:\Users\micha\source\repos\libressl\crypto\dsa;C:\Users\micha\source\repos\libressl\crypto\ec;C:\Users\micha\source\repos\libressl\crypto\ecdh;C:\Users\micha\source\repos\libressl\crypto\ecdsa;C:\Users\micha\source\repos\libressl\crypto\evp;C:\Users\micha\source\repos\libressl\crypto\hmac;C:\Users\micha\source\repos\libressl\crypto\modes;C:\Users\micha\source\repos\libressl\crypto\ocsp;C:\Users\micha\source\repos\libressl\crypto\rsa;C:\Users\micha\source\repos\libressl\crypto\x509;C:\Users\micha\source\repos\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\.;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -216,11 +216,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\micha\source\repos\libressl\crypto\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/crypto/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/crypto/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/crypto/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/crypto/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,11 +229,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\libressl\build\crypto\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/crypto/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/crypto/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/crypto/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/crypto/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,11 +242,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\libressl\build\crypto\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/crypto/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/crypto/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/crypto/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/crypto/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,11 +255,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\libressl\build\crypto\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/crypto/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/crypto/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/crypto/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/crypto/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,601 +268,601 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\libressl\build\crypto\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\aes\aes_core.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\aes\aes_cbc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\camellia\camellia.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\camellia\cmll_cbc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rc4\rc4_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rc4\rc4_skey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\whrlpool\wp_block.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cpt_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cryptlib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\crypto_init.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cversion.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ex_data.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\malloc-wrapper.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\mem_clr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\mem_dbg.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\o_fips.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\o_init.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\o_str.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\o_time.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\aes\aes_cfb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\aes\aes_ctr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\aes\aes_ecb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\aes\aes_ige.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\aes\aes_misc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\aes\aes_ofb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\aes\aes_wrap.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_bitstr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_enum.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_int.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_mbstr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_object.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_octet.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_pkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_print.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_pubkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_strex.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_string.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_strnid.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_time.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_time_tm.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_type.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\a_utf8.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\ameth_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\asn1_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\asn1_gen.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\asn1_item.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\asn1_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\asn1_old.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\asn1_old_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\asn1_par.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\asn1_types.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\asn_mime.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\asn_moid.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\bio_asn1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\bio_ndef.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\nsseq.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\p5_pbe.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\p5_pbev2.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\p8_pkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\t_crl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\t_pkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\t_req.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\t_spki.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\t_x509.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\t_x509a.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\tasn_dec.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\tasn_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\tasn_fre.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\tasn_new.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\tasn_prn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\tasn_typ.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\tasn_utl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_algor.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_attrib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_bignum.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_crl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_exten.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_info.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_long.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_name.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_pkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_pubkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_req.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_sig.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_spki.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_val.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_x509.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\asn1\x_x509a.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bf\bf_cfb64.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bf\bf_ecb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bf\bf_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bf\bf_ofb64.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bf\bf_skey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\b_dump.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\b_print.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\b_sock.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bf_buff.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bf_nbio.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bf_null.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bio_cb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bio_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bio_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bio_meth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bss_acpt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bss_bio.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bss_conn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bss_dgram.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bss_fd.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bss_file.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bss_mem.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bss_null.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\bss_sock.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_add.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_asm.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_blind.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_const.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_ctx.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_depr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_div.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_exp.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_exp2.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_gcd.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_gf2m.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_kron.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_mod.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_mont.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_mpi.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_mul.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_nist.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_prime.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_print.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_rand.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_recp.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_shift.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_sqr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_sqrt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_word.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bn\bn_x931p.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\buffer\buf_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\buffer\buf_str.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\buffer\buffer.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bytestring\bs_ber.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bytestring\bs_cbb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bytestring\bs_cbs.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\camellia\cmll_cfb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\camellia\cmll_ctr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\camellia\cmll_ecb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\camellia\cmll_misc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\camellia\cmll_ofb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cast\c_cfb64.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cast\c_ecb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cast\c_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cast\c_ofb64.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cast\c_skey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\chacha\chacha.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cmac\cm_ameth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cmac\cm_pmeth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cmac\cmac.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_asn1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_att.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_cd.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_dd.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_env.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_ess.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_io.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_kari.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_pwri.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_sd.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\cms\cms_smime.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\comp\c_rle.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\comp\c_zlib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\comp\comp_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\comp\comp_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\conf\conf_api.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\conf\conf_def.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\conf\conf_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\conf\conf_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\conf\conf_mall.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\conf\conf_mod.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\conf\conf_sap.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ct\ct_b64.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ct\ct_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ct\ct_log.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ct\ct_oct.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ct\ct_policy.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ct\ct_prn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ct\ct_sct.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ct\ct_sct_ctx.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ct\ct_vfy.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ct\ct_x509v3.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\curve25519\curve25519-generic.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\curve25519\curve25519.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\cbc_cksm.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\cbc_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\cfb64ede.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\cfb64enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\cfb_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\des_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\ecb3_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\ecb_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\ede_cbcm_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\enc_read.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\enc_writ.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\fcrypt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\fcrypt_b.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\ofb64ede.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\ofb64enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\ofb_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\pcbc_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\qud_cksm.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\rand_key.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\set_key.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\str2key.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\des\xcbc_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dh\dh_ameth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dh\dh_asn1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dh\dh_check.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dh\dh_depr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dh\dh_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dh\dh_gen.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dh\dh_key.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dh\dh_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dh\dh_pmeth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dh\dh_prn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_ameth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_asn1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_depr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_gen.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_key.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_meth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_ossl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_pmeth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_prn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_sign.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dsa\dsa_vrf.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dso\dso_dlfcn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dso\dso_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dso\dso_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dso\dso_null.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\dso\dso_openssl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec2_mult.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec2_oct.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec2_smpl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_ameth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_asn1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_check.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_curve.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_cvt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_key.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_kmeth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_mult.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_oct.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_pmeth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ec_print.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\eck_prn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ecp_mont.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ecp_nist.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ecp_oct.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ec\ecp_smpl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ecdh\ecdh_kdf.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ecdh\ech_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ecdh\ech_key.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ecdh\ech_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ecdsa\ecs_asn1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ecdsa\ecs_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ecdsa\ecs_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ecdsa\ecs_ossl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ecdsa\ecs_sign.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ecdsa\ecs_vrf.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_all.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_cnf.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_ctrl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_dyn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_fat.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_init.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_list.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_openssl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_pkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\eng_table.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_asnmth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_cipher.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_dh.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_digest.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_dsa.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_ecdh.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_ecdsa.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_eckey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_pkmeth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_rand.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_rsa.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\engine\tb_store.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\err\err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\err\err_all.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\err\err_prn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\bio_b64.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\bio_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\bio_md.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\c_all.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\digest.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_aes.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_aes_cbc_hmac_sha1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_bf.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_camellia.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_cast.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_chacha.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_chacha20poly1305.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_des.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_des3.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_gost2814789.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_idea.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_null.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_old.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_rc2.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_rc4.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_rc4_hmac_md5.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_sm4.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\e_xcbc_d.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\encode.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\evp_aead.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\evp_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\evp_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\evp_key.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\evp_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\evp_pbe.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\evp_pkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_gost2814789.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_gostr341194.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_md4.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_md5.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_md5_sha1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_null.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_ripemd.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_sha1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_sigver.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_streebog.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_sm3.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\m_wp.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\names.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\p5_crpt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\p5_crpt2.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\p_dec.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\p_enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\p_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\p_open.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\p_seal.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\p_sign.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\p_verify.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\pmeth_fn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\pmeth_gn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\evp\pmeth_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gost2814789.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gost89_keywrap.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gost89_params.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gost89imit_ameth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gost89imit_pmeth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gost_asn1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gost_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gostr341001.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gostr341001_ameth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gostr341001_key.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gostr341001_params.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gostr341001_pmeth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\gostr341194.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\gost\streebog.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\hkdf\hkdf.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\hmac\hm_ameth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\hmac\hm_pmeth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\hmac\hmac.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\idea\i_cbc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\idea\i_cfb64.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\idea\i_ecb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\idea\i_ofb64.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\idea\i_skey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\lhash\lh_stats.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\lhash\lhash.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\md4\md4_dgst.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\md4\md4_one.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\md5\md5_dgst.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\md5\md5_one.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\modes\cbc128.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\modes\ccm128.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\modes\cfb128.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\modes\ctr128.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\modes\cts128.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\modes\gcm128.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\modes\ofb128.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\modes\xts128.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\objects\o_names.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\objects\obj_dat.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\objects\obj_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\objects\obj_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\objects\obj_xref.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ocsp\ocsp_asn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ocsp\ocsp_cl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ocsp\ocsp_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ocsp\ocsp_ext.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ocsp\ocsp_ht.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ocsp\ocsp_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ocsp\ocsp_prn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ocsp\ocsp_srv.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ocsp\ocsp_vfy.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pem_all.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pem_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pem_info.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pem_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pem_oth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pem_pk8.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pem_pkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pem_sign.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pem_x509.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pem_xaux.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pem\pvkfmt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_add.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_asn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_attr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_crpt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_crt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_decr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_init.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_key.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_kiss.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_mutl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_npas.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_p8d.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_p8e.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\p12_utl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs12\pk12err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs7\bio_pk7.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs7\pk7_asn1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs7\pk7_attr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs7\pk7_doit.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs7\pk7_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs7\pk7_mime.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs7\pk7_smime.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\pkcs7\pkcs7err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\poly1305\poly1305.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rand\rand_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rand\rand_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rand\randfile.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rc2\rc2_cbc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rc2\rc2_ecb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rc2\rc2_skey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rc2\rc2cfb64.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rc2\rc2ofb64.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ripemd\rmd_dgst.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ripemd\rmd_one.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_ameth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_asn1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_chk.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_crpt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_depr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_eay.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_gen.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_meth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_none.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_oaep.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_pk1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_pmeth.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_prn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_pss.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_saos.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_sign.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\rsa\rsa_x931.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\sha\sha1_one.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\sha\sha1dgst.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\sha\sha256.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\sha\sha512.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\sm3\sm3.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\sm4\sm4.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\stack\stack.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_asn1.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_conf.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_req_print.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_req_utils.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_rsp_print.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_rsp_sign.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_rsp_utils.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_rsp_verify.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ts\ts_verify_ctx.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\txt_db\txt_db.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ui\ui_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ui\ui_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ui\ui_util.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\whrlpool\wp_dgst.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\by_dir.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\by_file.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\by_mem.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\pcy_cache.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\pcy_data.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\pcy_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\pcy_map.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\pcy_node.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\pcy_tree.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_addr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_akey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_akeya.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_alt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_asid.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_att.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_bcons.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_bitst.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_cmp.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_conf.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_constraints.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_cpols.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_crld.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_d2.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_def.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_enum.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_err.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_ext.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_extku.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_genn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_ia5.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_info.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_int.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_issuer_cache.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_lib.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_lu.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_ncons.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_obj.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_ocsp.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_pci.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_pcia.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_pcons.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_pku.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_pmaps.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_prn.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_purp.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_r2x.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_req.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_set.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_skey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_sxnet.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_trs.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_txt.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_utl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_v3.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_verify.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_vfy.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509_vpm.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509cset.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509name.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509rset.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509spki.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x509type.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\x509\x_all.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\crypto_lock_win.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\bio\b_win.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\ui\ui_openssl_win.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\posix_win.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\bsd-asprintf.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\freezero.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\getpagesize.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\getprogname_windows.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\reallocarray.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\recallocarray.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\strcasecmp.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\strlcat.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\strlcpy.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\strndup.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\strsep.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\strtonum.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\syslog_r.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\timegm.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\explicit_bzero_win.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\arc4random.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\arc4random_uniform.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\getentropy_win.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\timingsafe_bcmp.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\crypto\compat\timingsafe_memcmp.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\aes\aes_core.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\aes\aes_cbc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\camellia\camellia.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\camellia\cmll_cbc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rc4\rc4_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rc4\rc4_skey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\whrlpool\wp_block.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cpt_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cryptlib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\crypto_init.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cversion.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ex_data.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\malloc-wrapper.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\mem_clr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\mem_dbg.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\o_fips.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\o_init.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\o_str.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\o_time.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\aes\aes_cfb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\aes\aes_ctr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\aes\aes_ecb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\aes\aes_ige.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\aes\aes_misc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\aes\aes_ofb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\aes\aes_wrap.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_bitstr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_enum.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_int.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_mbstr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_object.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_octet.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_pkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_print.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_pubkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_strex.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_string.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_strnid.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_time.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_time_tm.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_type.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\a_utf8.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\ameth_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\asn1_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\asn1_gen.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\asn1_item.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\asn1_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\asn1_old.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\asn1_old_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\asn1_par.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\asn1_types.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\asn_mime.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\asn_moid.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\bio_asn1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\bio_ndef.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\nsseq.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\p5_pbe.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\p5_pbev2.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\p8_pkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\t_crl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\t_pkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\t_req.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\t_spki.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\t_x509.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\t_x509a.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\tasn_dec.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\tasn_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\tasn_fre.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\tasn_new.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\tasn_prn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\tasn_typ.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\tasn_utl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_algor.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_attrib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_bignum.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_crl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_exten.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_info.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_long.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_name.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_pkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_pubkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_req.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_sig.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_spki.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_val.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_x509.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\asn1\x_x509a.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bf\bf_cfb64.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bf\bf_ecb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bf\bf_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bf\bf_ofb64.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bf\bf_skey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\b_dump.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\b_print.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\b_sock.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bf_buff.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bf_nbio.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bf_null.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bio_cb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bio_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bio_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bio_meth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bss_acpt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bss_bio.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bss_conn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bss_dgram.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bss_fd.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bss_file.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bss_mem.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bss_null.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\bss_sock.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_add.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_asm.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_blind.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_const.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_ctx.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_depr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_div.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_exp.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_exp2.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_gcd.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_gf2m.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_kron.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_mod.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_mont.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_mpi.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_mul.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_nist.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_prime.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_print.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_rand.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_recp.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_shift.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_sqr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_sqrt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_word.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bn\bn_x931p.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\buffer\buf_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\buffer\buf_str.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\buffer\buffer.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring\bs_ber.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring\bs_cbb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bytestring\bs_cbs.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\camellia\cmll_cfb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\camellia\cmll_ctr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\camellia\cmll_ecb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\camellia\cmll_misc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\camellia\cmll_ofb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cast\c_cfb64.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cast\c_ecb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cast\c_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cast\c_ofb64.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cast\c_skey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\chacha\chacha.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cmac\cm_ameth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cmac\cm_pmeth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cmac\cmac.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_asn1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_att.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_cd.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_dd.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_env.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_ess.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_io.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_kari.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_pwri.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_sd.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\cms\cms_smime.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\comp\c_rle.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\comp\c_zlib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\comp\comp_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\comp\comp_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\conf\conf_api.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\conf\conf_def.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\conf\conf_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\conf\conf_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\conf\conf_mall.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\conf\conf_mod.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\conf\conf_sap.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ct\ct_b64.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ct\ct_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ct\ct_log.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ct\ct_oct.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ct\ct_policy.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ct\ct_prn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ct\ct_sct.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ct\ct_sct_ctx.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ct\ct_vfy.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ct\ct_x509v3.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\curve25519\curve25519-generic.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\curve25519\curve25519.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\cbc_cksm.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\cbc_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\cfb64ede.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\cfb64enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\cfb_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\des_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\ecb3_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\ecb_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\ede_cbcm_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\enc_read.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\enc_writ.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\fcrypt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\fcrypt_b.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\ofb64ede.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\ofb64enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\ofb_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\pcbc_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\qud_cksm.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\rand_key.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\set_key.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\str2key.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\des\xcbc_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh\dh_ameth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh\dh_asn1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh\dh_check.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh\dh_depr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh\dh_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh\dh_gen.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh\dh_key.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh\dh_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh\dh_pmeth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dh\dh_prn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_ameth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_asn1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_depr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_gen.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_key.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_meth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_ossl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_pmeth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_prn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_sign.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dsa\dsa_vrf.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dso\dso_dlfcn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dso\dso_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dso\dso_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dso\dso_null.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\dso\dso_openssl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec2_mult.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec2_oct.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec2_smpl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_ameth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_asn1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_check.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_curve.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_cvt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_key.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_kmeth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_mult.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_oct.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_pmeth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ec_print.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\eck_prn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ecp_mont.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ecp_nist.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ecp_oct.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ec\ecp_smpl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh\ecdh_kdf.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh\ech_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh\ech_key.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdh\ech_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa\ecs_asn1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa\ecs_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa\ecs_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa\ecs_ossl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa\ecs_sign.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ecdsa\ecs_vrf.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_all.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_cnf.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_ctrl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_dyn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_fat.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_init.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_list.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_openssl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_pkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\eng_table.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_asnmth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_cipher.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_dh.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_digest.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_dsa.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_ecdh.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_ecdsa.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_eckey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_pkmeth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_rand.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_rsa.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\engine\tb_store.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\err\err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\err\err_all.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\err\err_prn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\bio_b64.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\bio_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\bio_md.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\c_all.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\digest.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_aes.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_aes_cbc_hmac_sha1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_bf.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_camellia.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_cast.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_chacha.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_chacha20poly1305.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_des.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_des3.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_gost2814789.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_idea.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_null.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_old.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_rc2.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_rc4.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_rc4_hmac_md5.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_sm4.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\e_xcbc_d.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\encode.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\evp_aead.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\evp_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\evp_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\evp_key.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\evp_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\evp_pbe.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\evp_pkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_gost2814789.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_gostr341194.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_md4.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_md5.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_md5_sha1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_null.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_ripemd.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_sha1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_sigver.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_streebog.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_sm3.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\m_wp.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\names.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\p5_crpt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\p5_crpt2.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\p_dec.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\p_enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\p_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\p_open.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\p_seal.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\p_sign.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\p_verify.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\pmeth_fn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\pmeth_gn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\evp\pmeth_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gost2814789.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gost89_keywrap.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gost89_params.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gost89imit_ameth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gost89imit_pmeth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gost_asn1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gost_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gostr341001.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gostr341001_ameth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gostr341001_key.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gostr341001_params.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gostr341001_pmeth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\gostr341194.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\gost\streebog.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hkdf\hkdf.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac\hm_ameth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac\hm_pmeth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\hmac\hmac.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\idea\i_cbc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\idea\i_cfb64.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\idea\i_ecb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\idea\i_ofb64.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\idea\i_skey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\lhash\lh_stats.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\lhash\lhash.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\md4\md4_dgst.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\md4\md4_one.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\md5\md5_dgst.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\md5\md5_one.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes\cbc128.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes\ccm128.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes\cfb128.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes\ctr128.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes\cts128.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes\gcm128.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes\ofb128.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\modes\xts128.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\objects\o_names.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\objects\obj_dat.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\objects\obj_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\objects\obj_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\objects\obj_xref.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp\ocsp_asn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp\ocsp_cl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp\ocsp_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp\ocsp_ext.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp\ocsp_ht.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp\ocsp_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp\ocsp_prn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp\ocsp_srv.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ocsp\ocsp_vfy.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pem_all.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pem_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pem_info.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pem_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pem_oth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pem_pk8.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pem_pkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pem_sign.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pem_x509.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pem_xaux.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pem\pvkfmt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_add.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_asn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_attr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_crpt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_crt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_decr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_init.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_key.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_kiss.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_mutl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_npas.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_p8d.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_p8e.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\p12_utl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs12\pk12err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs7\bio_pk7.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs7\pk7_asn1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs7\pk7_attr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs7\pk7_doit.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs7\pk7_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs7\pk7_mime.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs7\pk7_smime.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\pkcs7\pkcs7err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\poly1305\poly1305.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rand\rand_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rand\rand_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rand\randfile.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rc2\rc2_cbc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rc2\rc2_ecb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rc2\rc2_skey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rc2\rc2cfb64.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rc2\rc2ofb64.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ripemd\rmd_dgst.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ripemd\rmd_one.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_ameth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_asn1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_chk.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_crpt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_depr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_eay.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_gen.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_meth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_none.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_oaep.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_pk1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_pmeth.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_prn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_pss.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_saos.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_sign.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\rsa\rsa_x931.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\sha\sha1_one.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\sha\sha1dgst.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\sha\sha256.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\sha\sha512.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\sm3\sm3.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\sm4\sm4.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\stack\stack.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_asn1.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_conf.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_req_print.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_req_utils.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_rsp_print.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_rsp_sign.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_rsp_utils.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_rsp_verify.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ts\ts_verify_ctx.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\txt_db\txt_db.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ui\ui_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ui\ui_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ui\ui_util.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\whrlpool\wp_dgst.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\by_dir.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\by_file.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\by_mem.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\pcy_cache.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\pcy_data.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\pcy_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\pcy_map.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\pcy_node.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\pcy_tree.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_addr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_akey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_akeya.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_alt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_asid.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_att.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_bcons.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_bitst.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_cmp.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_conf.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_constraints.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_cpols.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_crld.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_d2.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_def.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_enum.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_err.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_ext.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_extku.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_genn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_ia5.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_info.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_int.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_issuer_cache.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_lib.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_lu.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_ncons.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_obj.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_ocsp.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_pci.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_pcia.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_pcons.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_pku.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_pmaps.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_prn.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_purp.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_r2x.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_req.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_set.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_skey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_sxnet.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_trs.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_txt.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_utl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_v3.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_verify.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_vfy.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509_vpm.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509cset.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509name.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509rset.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509spki.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x509type.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\x509\x_all.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\crypto_lock_win.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\bio\b_win.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\ui\ui_openssl_win.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\posix_win.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\bsd-asprintf.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\freezero.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\getpagesize.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\getprogname_windows.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\reallocarray.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\recallocarray.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\strcasecmp.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\strlcat.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\strlcpy.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\strndup.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\strsep.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\strtonum.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\syslog_r.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\timegm.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\explicit_bzero_win.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\arc4random.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\arc4random_uniform.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\getentropy_win.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\timingsafe_bcmp.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\crypto\compat\timingsafe_memcmp.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\ZERO_CHECK.vcxproj">
-      <Project>{43A7B8D6-CC7F-3EAF-8C05-DFAB08743231}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ZERO_CHECK.vcxproj">
+      <Project>{7E6C04ED-4288-39F4-BFAF-05D686A888B9}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

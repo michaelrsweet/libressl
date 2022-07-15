@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\tests\keypairtest.c">
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tests\keypairtest.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\micha\source\repos\libressl\tests\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tests\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{33A55FA2-E5F2-3AC2-8338-3D34DACDE251}</UniqueIdentifier>
+      <UniqueIdentifier>{08E4D568-4F1B-3A6F-83F4-B98A3C1061C1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

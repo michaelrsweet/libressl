@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AF80CACF-D3C3-31A6-9121-C18431F54232}</ProjectGuid>
+    <ProjectGuid>{E56F9FE5-9509-3A85-8242-5F4F5BDB66E8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\libressl\build\ssl\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ssl.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ssl-52</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\libressl\build\ssl\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ssl.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ssl-52</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\libressl\build\ssl\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ssl.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ssl-52</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\libressl\build\ssl\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ssl.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ssl-52</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
@@ -119,9 +119,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/ssl/Debug/ssl-52.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/micha/source/repos/libressl/build/ssl/ssl.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/ssl/Debug/ssl-52.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/Debug/ssl-52.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/ssl.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/Debug/ssl-52.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -163,9 +163,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/ssl/Release/ssl-52.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/micha/source/repos/libressl/build/ssl/ssl.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/ssl/Release/ssl-52.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/Release/ssl-52.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/ssl.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/Release/ssl-52.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -207,9 +207,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/ssl/MinSizeRel/ssl-52.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/micha/source/repos/libressl/build/ssl/ssl.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/ssl/MinSizeRel/ssl-52.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/MinSizeRel/ssl-52.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/ssl.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/MinSizeRel/ssl-52.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -250,9 +250,9 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/ssl/RelWithDebInfo/ssl-52.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/micha/source/repos/libressl/build/ssl/ssl.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/ssl/RelWithDebInfo/ssl-52.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/RelWithDebInfo/ssl-52.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/ssl.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/RelWithDebInfo/ssl-52.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,11 +260,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\micha\source\repos\libressl\ssl\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/ssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/ssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/ssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,11 +273,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\libressl\build\ssl\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/ssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/ssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/ssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -286,11 +286,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\libressl\build\ssl\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/ssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/ssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/ssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -299,11 +299,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\libressl\build\ssl\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/ssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/ssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/ssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,84 +312,84 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\libressl\build\ssl\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\bio_ssl.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_both.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_lib.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_pkt.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_srtp.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\pqueue.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\s3_cbc.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\s3_lib.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_algs.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_asn1.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_both.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_cert.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_ciph.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_ciphers.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_clnt.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_err.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_init.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_kex.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_lib.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_methods.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_packet.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_pkt.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_rsa.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_sess.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_sigalgs.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_srvr.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_stat.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_tlsext.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_transcript.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_txt.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_versions.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\t1_enc.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\t1_lib.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls_buffer.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls_content.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls_key_share.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls12_key_schedule.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls12_lib.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls12_record_layer.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_client.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_error.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_handshake.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_handshake_msg.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_key_schedule.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_legacy.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_lib.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_record.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_record_layer.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_server.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\bs_obj.dir\$(Configuration)\bs_ber.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\bs_obj.dir\$(Configuration)\bs_cbb.obj" />
-    <Object Include="C:\Users\micha\source\repos\libressl\build\ssl\bs_obj.dir\$(Configuration)\bs_cbs.obj" />
-    <None Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl.def" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\bio_ssl.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_both.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_lib.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_pkt.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\d1_srtp.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\pqueue.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\s3_cbc.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\s3_lib.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_algs.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_asn1.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_both.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_cert.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_ciph.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_ciphers.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_clnt.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_err.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_init.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_kex.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_lib.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_methods.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_packet.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_pkt.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_rsa.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_sess.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_sigalgs.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_srvr.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_stat.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_tlsext.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_transcript.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_txt.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\ssl_versions.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\t1_enc.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\t1_lib.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls_buffer.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls_content.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls_key_share.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls12_key_schedule.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls12_lib.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls12_record_layer.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_client.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_error.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_handshake.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_handshake_msg.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_key_schedule.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_legacy.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_lib.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_record.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_record_layer.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.dir\$(Configuration)\tls13_server.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\bs_obj.dir\$(Configuration)\bs_ber.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\bs_obj.dir\$(Configuration)\bs_cbb.obj" />
+    <Object Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\bs_obj.dir\$(Configuration)\bs_cbs.obj" />
+    <None Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl.def" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\ZERO_CHECK.vcxproj">
-      <Project>{43A7B8D6-CC7F-3EAF-8C05-DFAB08743231}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ZERO_CHECK.vcxproj">
+      <Project>{7E6C04ED-4288-39F4-BFAF-05D686A888B9}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\ssl\bs_obj.vcxproj">
-      <Project>{5D9F9B36-33FA-3567-80B3-22CB76D91302}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\bs_obj.vcxproj">
+      <Project>{A131AC34-0823-341F-B0C7-1DF3C4E98290}</Project>
       <Name>bs_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\crypto\crypto.vcxproj">
-      <Project>{7311ECE7-74A5-3835-A6F5-86DDA6D7E214}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\crypto.vcxproj">
+      <Project>{99A79F64-0C4D-3D19-9B2C-820D383AE3E0}</Project>
       <Name>crypto</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl_obj.vcxproj">
-      <Project>{0111AEC5-7098-3CEA-B86A-919993EAD2AE}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.vcxproj">
+      <Project>{47429777-7590-3750-B608-81B4C2A37EBA}</Project>
       <Name>ssl_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

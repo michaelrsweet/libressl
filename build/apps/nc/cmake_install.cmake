@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/micha/source/repos/libressl/apps/nc
+# Install script for directory: C:/Users/micha/source/repos/michaelrsweet/libressl/apps/nc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

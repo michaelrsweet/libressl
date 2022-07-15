@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{24630883-1523-3E88-9FDC-2212D37720DB}</ProjectGuid>
+    <ProjectGuid>{48DA1AAE-8F7F-331B-89C2-E7F3CEDE90E1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\libressl\build\apps\openssl\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\apps\openssl\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">openssl.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">openssl</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\libressl\build\apps\openssl\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\apps\openssl\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">openssl.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">openssl</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\libressl\build\apps\openssl\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\apps\openssl\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">openssl.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">openssl</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\libressl\build\apps\openssl\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\apps\openssl\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">openssl.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">openssl</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -105,10 +105,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -121,8 +121,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/apps/openssl/Debug/openssl.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/apps/openssl/Debug/openssl.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/Debug/openssl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/Debug/openssl.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -131,7 +131,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
       <ExceptionHandling>
@@ -150,10 +150,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -166,8 +166,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/apps/openssl/Release/openssl.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/apps/openssl/Release/openssl.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/Release/openssl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/Release/openssl.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -176,7 +176,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
       <ExceptionHandling>
@@ -195,10 +195,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -211,8 +211,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/apps/openssl/MinSizeRel/openssl.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/apps/openssl/MinSizeRel/openssl.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/MinSizeRel/openssl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/MinSizeRel/openssl.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -221,7 +221,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
@@ -239,10 +239,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\libressl\apps\openssl\.;C:\Users\micha\source\repos\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\.;C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\..\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -255,8 +255,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/apps/openssl/RelWithDebInfo/openssl.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/apps/openssl/RelWithDebInfo/openssl.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/RelWithDebInfo/openssl.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/RelWithDebInfo/openssl.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -264,11 +264,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\micha\source\repos\libressl\apps\openssl\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/apps/openssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/apps/openssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/apps/openssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,11 +277,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\libressl\build\apps\openssl\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\apps\openssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/apps/openssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/apps/openssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/apps/openssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -290,11 +290,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\libressl\build\apps\openssl\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\apps\openssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/apps/openssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/apps/openssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/apps/openssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -303,11 +303,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\libressl\build\apps\openssl\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\apps\openssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/apps/openssl/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/apps/openssl/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/apps/openssl/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -316,76 +316,76 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\libressl\build\apps\openssl\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\apps\openssl\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\apps.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\asn1pars.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\ca.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\ciphers.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\crl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\crl2p7.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\cms.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\dgst.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\dh.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\dhparam.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\dsa.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\dsaparam.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\ec.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\ecparam.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\enc.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\errstr.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\gendh.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\gendsa.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\genpkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\genrsa.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\nseq.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\ocsp.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\openssl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\passwd.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\pkcs12.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\pkcs7.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\pkcs8.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\pkey.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\pkeyparam.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\pkeyutl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\prime.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\rand.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\req.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\rsa.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\rsautl.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\s_cb.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\s_client.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\s_server.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\s_socket.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\s_time.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\sess_id.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\smime.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\speed.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\spkac.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\ts.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\verify.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\version.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\x509.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\apps_win.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\certhash_win.c" />
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\apps\openssl\compat\poll_win.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\apps.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\asn1pars.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ca.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ciphers.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\crl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\crl2p7.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\cms.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\dgst.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\dh.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\dhparam.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\dsa.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\dsaparam.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ec.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ecparam.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\enc.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\errstr.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\gendh.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\gendsa.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\genpkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\genrsa.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\nseq.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ocsp.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\openssl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\passwd.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkcs12.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkcs7.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkcs8.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkey.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkeyparam.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkeyutl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\prime.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\rand.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\req.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\rsa.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\rsautl.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\s_cb.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\s_client.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\s_server.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\s_socket.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\s_time.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\sess_id.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\smime.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\speed.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\spkac.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ts.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\verify.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\version.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\x509.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\apps_win.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\certhash_win.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\compat\poll_win.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\ZERO_CHECK.vcxproj">
-      <Project>{43A7B8D6-CC7F-3EAF-8C05-DFAB08743231}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ZERO_CHECK.vcxproj">
+      <Project>{7E6C04ED-4288-39F4-BFAF-05D686A888B9}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\crypto\crypto.vcxproj">
-      <Project>{7311ECE7-74A5-3835-A6F5-86DDA6D7E214}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\crypto.vcxproj">
+      <Project>{99A79F64-0C4D-3D19-9B2C-820D383AE3E0}</Project>
       <Name>crypto</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl.vcxproj">
-      <Project>{AF80CACF-D3C3-31A6-9121-C18431F54232}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl.vcxproj">
+      <Project>{E56F9FE5-9509-3A85-8242-5F4F5BDB66E8}</Project>
       <Name>ssl</Name>
     </ProjectReference>
   </ItemGroup>

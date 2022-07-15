@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/micha/source/repos/libressl/apps
+# Install script for directory: C:/Users/micha/source/repos/michaelrsweet/libressl/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/micha/source/repos/libressl/build/apps/ocspcheck/cmake_install.cmake")
-  include("C:/Users/micha/source/repos/libressl/build/apps/openssl/cmake_install.cmake")
-  include("C:/Users/micha/source/repos/libressl/build/apps/nc/cmake_install.cmake")
+  include("C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/ocspcheck/cmake_install.cmake")
+  include("C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/openssl/cmake_install.cmake")
+  include("C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/nc/cmake_install.cmake")
 
 endif()
 

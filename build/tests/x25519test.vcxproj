@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9B1E1843-55FB-3485-898D-809CACCB5100}</ProjectGuid>
+    <ProjectGuid>{28D28E8A-E573-3B25-B293-5993055417D1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\libressl\build\tests\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">x25519test.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">x25519test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\libressl\build\tests\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">x25519test.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">x25519test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\libressl\build\tests\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">x25519test.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">x25519test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\libressl\build\tests\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">x25519test.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">x25519test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -100,15 +100,15 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE="C:/Users/micha/source/repos/libressl/tests/../cert.pem";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE="C:/Users/micha/source/repos/michaelrsweet/libressl/tests/../cert.pem";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE=\"C:/Users/micha/source/repos/libressl/tests/../cert.pem\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE=\"C:/Users/micha/source/repos/michaelrsweet/libressl/tests/../cert.pem\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -118,7 +118,7 @@
     <PostBuildEvent>
       <Message>Copying DLLs for regression tests</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/micha/source/repos/libressl/build/tls/Debug/tls-25.dll C:/Users/micha/source/repos/libressl/build/ssl/Debug/ssl-52.dll C:/Users/micha/source/repos/libressl/build/crypto/Debug/crypto-49.dll C:/Users/micha/source/repos/libressl/build/tests
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/micha/source/repos/michaelrsweet/libressl/build/tls/Debug/tls-25.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/Debug/ssl-52.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/crypto/Debug/crypto-49.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,8 +133,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/tests/Debug/x25519test.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/tests/Debug/x25519test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/Debug/x25519test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/Debug/x25519test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -143,7 +143,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
       <ExceptionHandling>
@@ -155,17 +155,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE="C:/Users/micha/source/repos/libressl/tests/../cert.pem";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE="C:/Users/micha/source/repos/michaelrsweet/libressl/tests/../cert.pem";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE=\"C:/Users/micha/source/repos/libressl/tests/../cert.pem\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE=\"C:/Users/micha/source/repos/michaelrsweet/libressl/tests/../cert.pem\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -175,7 +175,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>Copying DLLs for regression tests</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/micha/source/repos/libressl/build/tls/Release/tls-25.dll C:/Users/micha/source/repos/libressl/build/ssl/Release/ssl-52.dll C:/Users/micha/source/repos/libressl/build/crypto/Release/crypto-49.dll C:/Users/micha/source/repos/libressl/build/tests
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/micha/source/repos/michaelrsweet/libressl/build/tls/Release/tls-25.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/Release/ssl-52.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/crypto/Release/crypto-49.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -190,8 +190,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/tests/Release/x25519test.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/tests/Release/x25519test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/Release/x25519test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/Release/x25519test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -200,7 +200,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
       <ExceptionHandling>
@@ -212,17 +212,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE="C:/Users/micha/source/repos/libressl/tests/../cert.pem";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE="C:/Users/micha/source/repos/michaelrsweet/libressl/tests/../cert.pem";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE=\"C:/Users/micha/source/repos/libressl/tests/../cert.pem\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE=\"C:/Users/micha/source/repos/michaelrsweet/libressl/tests/../cert.pem\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -232,7 +232,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>Copying DLLs for regression tests</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/micha/source/repos/libressl/build/tls/MinSizeRel/tls-25.dll C:/Users/micha/source/repos/libressl/build/ssl/MinSizeRel/ssl-52.dll C:/Users/micha/source/repos/libressl/build/crypto/MinSizeRel/crypto-49.dll C:/Users/micha/source/repos/libressl/build/tests
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/micha/source/repos/michaelrsweet/libressl/build/tls/MinSizeRel/tls-25.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/MinSizeRel/ssl-52.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/crypto/MinSizeRel/crypto-49.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,8 +247,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/tests/MinSizeRel/x25519test.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/tests/MinSizeRel/x25519test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/MinSizeRel/x25519test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/MinSizeRel/x25519test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -257,7 +257,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4018;4057;4100;4127;4146;4244;4245;4267;4389;4706;4996</DisableSpecificWarnings>
@@ -270,15 +270,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE="C:/Users/micha/source/repos/libressl/tests/../cert.pem";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE="C:/Users/micha/source/repos/michaelrsweet/libressl/tests/../cert.pem";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE=\"C:/Users/micha/source/repos/libressl/tests/../cert.pem\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;_PATH_SSL_CA_FILE=\"C:/Users/micha/source/repos/michaelrsweet/libressl/tests/../cert.pem\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\libressl\tests\.;C:\Users\micha\source\repos\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\libressl\tests\..\ssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\libressl\tests\..\include;C:\Users\micha\source\repos\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\micha\source\repos\michaelrsweet\libressl\tests\.;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\asn1;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\bio;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\evp;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\modes;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\crypto\x509;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\ssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\apps\openssl\compat;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include;C:\Users\micha\source\repos\michaelrsweet\libressl\tests\..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -288,7 +288,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>Copying DLLs for regression tests</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/micha/source/repos/libressl/build/tls/RelWithDebInfo/tls-25.dll C:/Users/micha/source/repos/libressl/build/ssl/RelWithDebInfo/ssl-52.dll C:/Users/micha/source/repos/libressl/build/crypto/RelWithDebInfo/crypto-49.dll C:/Users/micha/source/repos/libressl/build/tests
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/micha/source/repos/michaelrsweet/libressl/build/tls/RelWithDebInfo/tls-25.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/RelWithDebInfo/ssl-52.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/crypto/RelWithDebInfo/crypto-49.dll C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -303,8 +303,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/micha/source/repos/libressl/build/tests/RelWithDebInfo/x25519test.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/micha/source/repos/libressl/build/tests/RelWithDebInfo/x25519test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/RelWithDebInfo/x25519test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/RelWithDebInfo/x25519test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -312,11 +312,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\micha\source\repos\libressl\tests\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tests\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/tests/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -325,11 +325,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\libressl\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/tests/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -338,11 +338,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\libressl\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/tests/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -351,11 +351,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\libressl\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/micha/source/repos/libressl/tests/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/tests/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/libressl -BC:/Users/micha/source/repos/libressl/build --check-stamp-file C:/Users/micha/source/repos/libressl/build/tests/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -364,38 +364,38 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\libressl\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\micha\source\repos\libressl\tests\x25519test.c" />
+    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tests\x25519test.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\ZERO_CHECK.vcxproj">
-      <Project>{43A7B8D6-CC7F-3EAF-8C05-DFAB08743231}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ZERO_CHECK.vcxproj">
+      <Project>{7E6C04ED-4288-39F4-BFAF-05D686A888B9}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\crypto\crypto.vcxproj">
-      <Project>{7311ECE7-74A5-3835-A6F5-86DDA6D7E214}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\crypto.vcxproj">
+      <Project>{99A79F64-0C4D-3D19-9B2C-820D383AE3E0}</Project>
       <Name>crypto</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\crypto\crypto-static.vcxproj">
-      <Project>{09B3CB91-DBD7-389B-A17C-F01F95E59042}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\crypto-static.vcxproj">
+      <Project>{43D00D8A-C69A-378E-9427-E8E03A8940A1}</Project>
       <Name>crypto-static</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl.vcxproj">
-      <Project>{AF80CACF-D3C3-31A6-9121-C18431F54232}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl.vcxproj">
+      <Project>{E56F9FE5-9509-3A85-8242-5F4F5BDB66E8}</Project>
       <Name>ssl</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\ssl\ssl-static.vcxproj">
-      <Project>{CD162668-794F-388A-B591-47C6DCA3B982}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl-static.vcxproj">
+      <Project>{11F9515D-D67E-34AF-AB51-E8A99BF15306}</Project>
       <Name>ssl-static</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\libressl\build\tls\tls.vcxproj">
-      <Project>{FE40E1F9-1803-3384-AFC6-89900AB7019E}</Project>
+    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tls\tls.vcxproj">
+      <Project>{A4C90003-F5D2-3087-BC2E-2AC72C4C6C96}</Project>
       <Name>tls</Name>
     </ProjectReference>
   </ItemGroup>

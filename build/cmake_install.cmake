@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/micha/source/repos/libressl
+# Install script for directory: C:/Users/micha/source/repos/michaelrsweet/libressl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,9 +42,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "C:/Program Files (x86)/LibreSSL/etc/ssl" TYPE FILE FILES
-    "C:/Users/micha/source/repos/libressl/cert.pem"
-    "C:/Users/micha/source/repos/libressl/openssl.cnf"
-    "C:/Users/micha/source/repos/libressl/x509v3.cnf"
+    "C:/Users/micha/source/repos/michaelrsweet/libressl/cert.pem"
+    "C:/Users/micha/source/repos/michaelrsweet/libressl/openssl.cnf"
+    "C:/Users/micha/source/repos/michaelrsweet/libressl/x509v3.cnf"
     )
 endif()
 
@@ -62,12 +62,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/micha/source/repos/libressl/build/crypto/cmake_install.cmake")
-  include("C:/Users/micha/source/repos/libressl/build/ssl/cmake_install.cmake")
-  include("C:/Users/micha/source/repos/libressl/build/apps/cmake_install.cmake")
-  include("C:/Users/micha/source/repos/libressl/build/tls/cmake_install.cmake")
-  include("C:/Users/micha/source/repos/libressl/build/include/cmake_install.cmake")
-  include("C:/Users/micha/source/repos/libressl/build/tests/cmake_install.cmake")
+  include("C:/Users/micha/source/repos/michaelrsweet/libressl/build/crypto/cmake_install.cmake")
+  include("C:/Users/micha/source/repos/michaelrsweet/libressl/build/ssl/cmake_install.cmake")
+  include("C:/Users/micha/source/repos/michaelrsweet/libressl/build/apps/cmake_install.cmake")
+  include("C:/Users/micha/source/repos/michaelrsweet/libressl/build/tls/cmake_install.cmake")
+  include("C:/Users/micha/source/repos/michaelrsweet/libressl/build/include/cmake_install.cmake")
+  include("C:/Users/micha/source/repos/michaelrsweet/libressl/build/tests/cmake_install.cmake")
 
 endif()
 
@@ -79,5 +79,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/micha/source/repos/libressl/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/micha/source/repos/michaelrsweet/libressl/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
