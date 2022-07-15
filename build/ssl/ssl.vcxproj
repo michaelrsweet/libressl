@@ -315,19 +315,19 @@
     <None Include="ssl.def" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="ZERO_CHECK.vcxproj">
+    <ProjectReference Include="../ZERO_CHECK.vcxproj">
       <Project>{7E6C04ED-4288-39F4-BFAF-05D686A888B9}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="bs_obj.vcxproj">
+    <ProjectReference Include="../ssl/bs_obj.vcxproj">
       <Project>{A131AC34-0823-341F-B0C7-1DF3C4E98290}</Project>
       <Name>bs_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="crypto.vcxproj">
+    <ProjectReference Include="../crypto/crypto.vcxproj">
       <Project>{99A79F64-0C4D-3D19-9B2C-820D383AE3E0}</Project>
       <Name>crypto</Name>
     </ProjectReference>

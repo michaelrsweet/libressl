@@ -259,13 +259,13 @@
     <Object Include="ssl_obj.dir\$(Configuration)\tls13_server.obj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="ZERO_CHECK.vcxproj">
+    <ProjectReference Include="../ZERO_CHECK.vcxproj">
       <Project>{7E6C04ED-4288-39F4-BFAF-05D686A888B9}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="crypto-static.vcxproj">
+    <ProjectReference Include="../crypto/crypto-static.vcxproj">
       <Project>{43D00D8A-C69A-378E-9427-E8E03A8940A1}</Project>
       <Name>crypto-static</Name>
     </ProjectReference>

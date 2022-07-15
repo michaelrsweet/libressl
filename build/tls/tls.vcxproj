@@ -913,19 +913,19 @@
     <None Include="tls.def" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="ZERO_CHECK.vcxproj">
+    <ProjectReference Include="../ZERO_CHECK.vcxproj">
       <Project>{7E6C04ED-4288-39F4-BFAF-05D686A888B9}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="crypto_obj.vcxproj">
+    <ProjectReference Include="../crypto/crypto_obj.vcxproj">
       <Project>{43FA5774-B8DB-3AA7-BA32-EE75EB45876F}</Project>
       <Name>crypto_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="ssl_obj.vcxproj">
+    <ProjectReference Include="../ssl/ssl_obj.vcxproj">
       <Project>{47429777-7590-3750-B608-81B4C2A37EBA}</Project>
       <Name>ssl_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
