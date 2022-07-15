@@ -860,12 +860,6 @@
     <Object Include="crypto_obj.dir\$(Configuration)\timingsafe_memcmp.obj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ZERO_CHECK.vcxproj">
-      <Project>{7E6C04ED-4288-39F4-BFAF-05D686A888B9}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
     <ProjectReference Include="..\crypto\crypto_obj.vcxproj">
       <Project>{43FA5774-B8DB-3AA7-BA32-EE75EB45876F}</Project>
       <Name>crypto_obj</Name>
