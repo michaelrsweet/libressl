@@ -260,59 +260,59 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\bio_ssl.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\d1_both.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\d1_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\d1_pkt.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\d1_srtp.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\pqueue.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\s3_cbc.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\s3_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_algs.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_asn1.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_both.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_cert.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_ciph.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_ciphers.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_clnt.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_err.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_init.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_kex.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_methods.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_packet.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_pkt.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_rsa.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_sess.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_sigalgs.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_srvr.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_stat.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_tlsext.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_transcript.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_txt.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_versions.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\t1_enc.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\t1_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls_buffer.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls_content.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls_key_share.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls12_key_schedule.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls12_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls12_record_layer.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_client.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_error.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_handshake.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_handshake_msg.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_key_schedule.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_legacy.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_record.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_record_layer.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_server.obj" />
-    <Object Include="ssl\bs_obj.dir\$(Configuration)\bs_ber.obj" />
-    <Object Include="ssl\bs_obj.dir\$(Configuration)\bs_cbb.obj" />
-    <Object Include="ssl\bs_obj.dir\$(Configuration)\bs_cbs.obj" />
-    <None Include="ssl\ssl.def" />
+    <Object Include="ssl_obj.dir\$(Configuration)\bio_ssl.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\d1_both.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\d1_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\d1_pkt.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\d1_srtp.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\pqueue.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\s3_cbc.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\s3_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_algs.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_asn1.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_both.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_cert.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_ciph.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_ciphers.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_clnt.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_err.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_init.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_kex.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_methods.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_packet.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_pkt.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_rsa.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_sess.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_sigalgs.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_srvr.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_stat.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_tlsext.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_transcript.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_txt.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_versions.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\t1_enc.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\t1_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls_buffer.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls_content.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls_key_share.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls12_key_schedule.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls12_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls12_record_layer.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_client.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_error.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_handshake.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_handshake_msg.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_key_schedule.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_legacy.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_record.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_record_layer.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_server.obj" />
+    <Object Include="bs_obj.dir\$(Configuration)\bs_ber.obj" />
+    <Object Include="bs_obj.dir\$(Configuration)\bs_cbb.obj" />
+    <Object Include="bs_obj.dir\$(Configuration)\bs_cbs.obj" />
+    <None Include="ssl.def" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ZERO_CHECK.vcxproj">
@@ -321,7 +321,7 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="ssl\bs_obj.vcxproj">
+    <ProjectReference Include="bs_obj.vcxproj">
       <Project>{A131AC34-0823-341F-B0C7-1DF3C4E98290}</Project>
       <Name>bs_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
@@ -331,7 +331,7 @@
       <Project>{99A79F64-0C4D-3D19-9B2C-820D383AE3E0}</Project>
       <Name>crypto</Name>
     </ProjectReference>
-    <ProjectReference Include="ssl\ssl_obj.vcxproj">
+    <ProjectReference Include="ssl_obj.vcxproj">
       <Project>{47429777-7590-3750-B608-81B4C2A37EBA}</Project>
       <Name>ssl_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

@@ -208,70 +208,70 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_bio_cb.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_client.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_config.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_conninfo.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_keypair.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_server.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_signer.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_ocsp.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_peer.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_util.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\tls_verify.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\ftruncate.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\pread.obj" />
-    <Object Include="tls\tls_obj.dir\$(Configuration)\pwrite.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\bio_ssl.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\d1_both.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\d1_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\d1_pkt.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\d1_srtp.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\pqueue.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\s3_cbc.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\s3_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_algs.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_asn1.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_both.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_cert.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_ciph.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_ciphers.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_clnt.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_err.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_init.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_kex.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_methods.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_packet.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_pkt.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_rsa.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_sess.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_sigalgs.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_srvr.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_stat.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_tlsext.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_transcript.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_txt.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\ssl_versions.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\t1_enc.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\t1_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls_buffer.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls_content.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls_key_share.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls12_key_schedule.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls12_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls12_record_layer.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_client.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_error.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_handshake.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_handshake_msg.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_key_schedule.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_legacy.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_lib.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_record.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_record_layer.obj" />
-    <Object Include="ssl\ssl_obj.dir\$(Configuration)\tls13_server.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_bio_cb.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_client.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_config.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_conninfo.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_keypair.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_server.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_signer.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_ocsp.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_peer.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_util.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\tls_verify.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\ftruncate.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\pread.obj" />
+    <Object Include="tls_obj.dir\$(Configuration)\pwrite.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\bio_ssl.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\d1_both.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\d1_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\d1_pkt.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\d1_srtp.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\pqueue.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\s3_cbc.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\s3_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_algs.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_asn1.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_both.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_cert.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_ciph.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_ciphers.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_clnt.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_err.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_init.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_kex.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_methods.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_packet.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_pkt.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_rsa.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_sess.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_sigalgs.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_srvr.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_stat.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_tlsext.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_transcript.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_txt.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\ssl_versions.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\t1_enc.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\t1_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls_buffer.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls_content.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls_key_share.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls12_key_schedule.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls12_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls12_record_layer.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_client.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_error.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_handshake.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_handshake_msg.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_key_schedule.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_legacy.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_lib.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_record.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_record_layer.obj" />
+    <Object Include="ssl_obj.dir\$(Configuration)\tls13_server.obj" />
     <Object Include="crypto\crypto_obj.dir\$(Configuration)\aes_core.obj" />
     <Object Include="crypto\crypto_obj.dir\$(Configuration)\aes_cbc.obj" />
     <Object Include="crypto\crypto_obj.dir\$(Configuration)\camellia.obj" />
@@ -872,13 +872,13 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="ssl\ssl_obj.vcxproj">
+    <ProjectReference Include="ssl_obj.vcxproj">
       <Project>{47429777-7590-3750-B608-81B4C2A37EBA}</Project>
       <Name>ssl_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="tls\tls_obj.vcxproj">
+    <ProjectReference Include="tls_obj.vcxproj">
       <Project>{4D00501E-163D-3890-B9A5-2C99ADC60633}</Project>
       <Name>tls_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
