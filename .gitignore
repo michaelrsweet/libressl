@@ -1,0 +1,7 @@
+*.dir
+*.dll
+*.nupkg
+Debug
+Release
+x64
+.vs
