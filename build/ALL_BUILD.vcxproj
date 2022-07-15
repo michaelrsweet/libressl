@@ -108,504 +108,445 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\micha\source\repos\michaelrsweet\libressl\CMakeLists.txt">
-      <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeASMCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeSystem.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ENDIAN_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IP_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\Users\micha\source\repos\michaelrsweet\libressl\cmake_export_symbol.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\cmake_uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeASMCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeSystem.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ENDIAN_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IP_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\Users\micha\source\repos\michaelrsweet\libressl\cmake_export_symbol.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\cmake_uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeASMCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeSystem.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ENDIAN_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IP_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\Users\micha\source\repos\michaelrsweet\libressl\cmake_export_symbol.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\cmake_uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/micha/source/repos/michaelrsweet/libressl/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/micha/source/repos/michaelrsweet/libressl -BC:/Users/micha/source/repos/michaelrsweet/libressl/build --check-stamp-file C:/Users/micha/source/repos/michaelrsweet/libressl/build/CMakeFiles/generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeASMCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestASMCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeASMCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\3.23.2\CMakeSystem.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ENDIAN_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IP_H.c;C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\Users\micha\source\repos\michaelrsweet\libressl\cmake_export_symbol.cmake;C:\Users\micha\source\repos\michaelrsweet\libressl\cmake_uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\micha\source\repos\michaelrsweet\libressl\build\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ZERO_CHECK.vcxproj">
+    <ProjectReference Include="ZERO_CHECK.vcxproj">
       <Project>{7E6C04ED-4288-39F4-BFAF-05D686A888B9}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\aeadtest.vcxproj">
+    <ProjectReference Include="tests\aeadtest.vcxproj">
       <Project>{4BAEB36D-E182-3D58-B204-5F6FE493EB59}</Project>
       <Name>aeadtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\aes_wrap.vcxproj">
+    <ProjectReference Include="tests\aes_wrap.vcxproj">
       <Project>{6CD37A9B-BA4D-3505-B337-D6C782D6AD3E}</Project>
       <Name>aes_wrap</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\asn1api.vcxproj">
+    <ProjectReference Include="tests\asn1api.vcxproj">
       <Project>{2A9454A4-0DC4-33B6-A7B5-23420FC8B50F}</Project>
       <Name>asn1api</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\asn1basic.vcxproj">
+    <ProjectReference Include="tests\asn1basic.vcxproj">
       <Project>{A62FEBCD-1477-3EA0-8366-00C509AA4A0D}</Project>
       <Name>asn1basic</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\asn1complex.vcxproj">
+    <ProjectReference Include="tests\asn1complex.vcxproj">
       <Project>{4A67EC00-7775-34A7-9EF1-BB9F8A7D071B}</Project>
       <Name>asn1complex</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\asn1evp.vcxproj">
+    <ProjectReference Include="tests\asn1evp.vcxproj">
       <Project>{B52F170D-F713-3533-8371-D90CCDCE89FB}</Project>
       <Name>asn1evp</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\asn1object.vcxproj">
+    <ProjectReference Include="tests\asn1object.vcxproj">
       <Project>{8714418E-628C-34A4-A165-D2BFF5E37686}</Project>
       <Name>asn1object</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\asn1string_copy.vcxproj">
+    <ProjectReference Include="tests\asn1string_copy.vcxproj">
       <Project>{CE36C33F-C5AD-3DEF-A2EC-89A37FB2EF62}</Project>
       <Name>asn1string_copy</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\asn1test.vcxproj">
+    <ProjectReference Include="tests\asn1test.vcxproj">
       <Project>{3A8F504B-C6F9-35CA-9CE7-583EE6FA9E23}</Project>
       <Name>asn1test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\asn1time.vcxproj">
+    <ProjectReference Include="tests\asn1time.vcxproj">
       <Project>{F596CE7D-984E-3962-BAB2-E072A7F8FA60}</Project>
       <Name>asn1time</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\asn1x509.vcxproj">
+    <ProjectReference Include="tests\asn1x509.vcxproj">
       <Project>{6CACEA42-2BAB-3DF4-820C-77C7BB07882A}</Project>
       <Name>asn1x509</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\base64test.vcxproj">
+    <ProjectReference Include="tests\base64test.vcxproj">
       <Project>{1D9B5200-82D2-333C-9330-0AA3E3926F10}</Project>
       <Name>base64test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\bftest.vcxproj">
+    <ProjectReference Include="tests\bftest.vcxproj">
       <Project>{038CC26E-E602-3B32-9F4B-96D3E9F673FA}</Project>
       <Name>bftest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\bn_mod_exp2_mont.vcxproj">
+    <ProjectReference Include="tests\bn_mod_exp2_mont.vcxproj">
       <Project>{5BA366A6-7669-3371-A5D7-2A2F4F3089E3}</Project>
       <Name>bn_mod_exp2_mont</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\bn_mod_sqrt.vcxproj">
+    <ProjectReference Include="tests\bn_mod_sqrt.vcxproj">
       <Project>{33E819A3-5173-3851-9F36-A9DD0A856F4A}</Project>
       <Name>bn_mod_sqrt</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\bn_rand_interval.vcxproj">
+    <ProjectReference Include="tests\bn_rand_interval.vcxproj">
       <Project>{1C2538A2-8CDF-3C20-A0AB-BA6013BC2335}</Project>
       <Name>bn_rand_interval</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\bn_to_string.vcxproj">
+    <ProjectReference Include="tests\bn_to_string.vcxproj">
       <Project>{57900094-64E6-3007-932F-DDA391ABCB66}</Project>
       <Name>bn_to_string</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\bnaddsub.vcxproj">
+    <ProjectReference Include="tests\bnaddsub.vcxproj">
       <Project>{F6211C5E-4FE7-35E3-A38D-BC5CE0FA0871}</Project>
       <Name>bnaddsub</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\bntest.vcxproj">
+    <ProjectReference Include="tests\bntest.vcxproj">
       <Project>{932BBABC-E7C6-3219-9E5E-3BB9BAD50337}</Project>
       <Name>bntest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\bs_obj.vcxproj">
+    <ProjectReference Include="ssl\bs_obj.vcxproj">
       <Project>{A131AC34-0823-341F-B0C7-1DF3C4E98290}</Project>
       <Name>bs_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\buffertest.vcxproj">
+    <ProjectReference Include="tests\buffertest.vcxproj">
       <Project>{9B01472E-5E23-3102-9E53-5D28FED21AE3}</Project>
       <Name>buffertest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\bytestringtest.vcxproj">
+    <ProjectReference Include="tests\bytestringtest.vcxproj">
       <Project>{4A9BBC53-7E07-3035-A33D-D7A3A185B074}</Project>
       <Name>bytestringtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\casttest.vcxproj">
+    <ProjectReference Include="tests\casttest.vcxproj">
       <Project>{A9438D81-BE63-3C6F-A39F-64C40542CA8D}</Project>
       <Name>casttest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\chachatest.vcxproj">
+    <ProjectReference Include="tests\chachatest.vcxproj">
       <Project>{1143E2DD-37DA-33B7-A271-D1A04630E798}</Project>
       <Name>chachatest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\cipher_list.vcxproj">
+    <ProjectReference Include="tests\cipher_list.vcxproj">
       <Project>{64624E4F-85D7-3F28-ABCD-115298922335}</Project>
       <Name>cipher_list</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\cipherstest.vcxproj">
+    <ProjectReference Include="tests\cipherstest.vcxproj">
       <Project>{41698F7D-35DF-3584-9902-A2D4A70E78AF}</Project>
       <Name>cipherstest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\clienttest.vcxproj">
+    <ProjectReference Include="tests\clienttest.vcxproj">
       <Project>{B46AE7AE-AF66-3E8E-992F-2C74CB402910}</Project>
       <Name>clienttest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\cmstest.vcxproj">
+    <ProjectReference Include="tests\cmstest.vcxproj">
       <Project>{3B2C9EBD-FC8B-3DE4-A210-CC7F9D7F9E8A}</Project>
       <Name>cmstest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\configtest.vcxproj">
+    <ProjectReference Include="tests\configtest.vcxproj">
       <Project>{4B061466-E275-3444-8B96-5F2F5124DF00}</Project>
       <Name>configtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\constraints.vcxproj">
+    <ProjectReference Include="tests\constraints.vcxproj">
       <Project>{01C9A74F-1B37-3260-8990-7E9ECCE0A5C5}</Project>
       <Name>constraints</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\crypto.vcxproj">
+    <ProjectReference Include="crypto\crypto.vcxproj">
       <Project>{99A79F64-0C4D-3D19-9B2C-820D383AE3E0}</Project>
       <Name>crypto</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\crypto-static.vcxproj">
+    <ProjectReference Include="crypto\crypto-static.vcxproj">
       <Project>{43D00D8A-C69A-378E-9427-E8E03A8940A1}</Project>
       <Name>crypto-static</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\crypto\crypto_obj.vcxproj">
+    <ProjectReference Include="crypto\crypto_obj.vcxproj">
       <Project>{43FA5774-B8DB-3AA7-BA32-EE75EB45876F}</Project>
       <Name>crypto_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\cts128test.vcxproj">
+    <ProjectReference Include="tests\cts128test.vcxproj">
       <Project>{E8EFAE8C-C0DD-34D7-8208-CDA0282B9279}</Project>
       <Name>cts128test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\destest.vcxproj">
+    <ProjectReference Include="tests\destest.vcxproj">
       <Project>{B47BD70B-2969-34B8-A762-320B337AC1DA}</Project>
       <Name>destest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\dhtest.vcxproj">
+    <ProjectReference Include="tests\dhtest.vcxproj">
       <Project>{3381B6B3-16B4-3E97-8770-FB3E885A11E6}</Project>
       <Name>dhtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\dsatest.vcxproj">
+    <ProjectReference Include="tests\dsatest.vcxproj">
       <Project>{7F65E07A-5E18-34C8-A5FE-1079AF309F32}</Project>
       <Name>dsatest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\ec_asn1_test.vcxproj">
+    <ProjectReference Include="tests\ec_asn1_test.vcxproj">
       <Project>{67866707-776A-3E79-B0AE-5CD101B8A819}</Project>
       <Name>ec_asn1_test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\ec_point_conversion.vcxproj">
+    <ProjectReference Include="tests\ec_point_conversion.vcxproj">
       <Project>{902DF675-C689-3440-ADE9-F3702961160B}</Project>
       <Name>ec_point_conversion</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\ecdhtest.vcxproj">
+    <ProjectReference Include="tests\ecdhtest.vcxproj">
       <Project>{F3712F6E-F7B0-3570-A736-7CAFADD0202E}</Project>
       <Name>ecdhtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\ecdsatest.vcxproj">
+    <ProjectReference Include="tests\ecdsatest.vcxproj">
       <Project>{BB02823F-4596-3EE9-A986-2187888DC969}</Project>
       <Name>ecdsatest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\ectest.vcxproj">
+    <ProjectReference Include="tests\ectest.vcxproj">
       <Project>{AA91EFC6-453E-3530-80C4-D10FA40AF15E}</Project>
       <Name>ectest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\enginetest.vcxproj">
+    <ProjectReference Include="tests\enginetest.vcxproj">
       <Project>{E93713B6-772A-31AD-B6BC-D3F2A7A2CEDB}</Project>
       <Name>enginetest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\evp_pkey_check.vcxproj">
+    <ProjectReference Include="tests\evp_pkey_check.vcxproj">
       <Project>{3529511E-B5AE-3254-AD87-C0335ADF4189}</Project>
       <Name>evp_pkey_check</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\evp_pkey_cleanup.vcxproj">
+    <ProjectReference Include="tests\evp_pkey_cleanup.vcxproj">
       <Project>{61E9496C-9F21-37CF-BEA2-BE24981D12C1}</Project>
       <Name>evp_pkey_cleanup</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\evptest.vcxproj">
+    <ProjectReference Include="tests\evptest.vcxproj">
       <Project>{430EA768-D2BE-326D-A89B-3BF61C14A761}</Project>
       <Name>evptest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\exptest.vcxproj">
+    <ProjectReference Include="tests\exptest.vcxproj">
       <Project>{85AFA299-0A0B-3FFA-B48C-FE3AEF4BE325}</Project>
       <Name>exptest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\freenull.vcxproj">
+    <ProjectReference Include="tests\freenull.vcxproj">
       <Project>{3D86AFEA-D10E-3D93-AC7F-A996434CD3A2}</Project>
       <Name>freenull</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\gcm128test.vcxproj">
+    <ProjectReference Include="tests\gcm128test.vcxproj">
       <Project>{36439921-0802-3A4C-9B10-5D24576BB5E4}</Project>
       <Name>gcm128test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\gost2814789t.vcxproj">
+    <ProjectReference Include="tests\gost2814789t.vcxproj">
       <Project>{03F7E5E0-D83D-37FC-A2AC-CD46AA35BED4}</Project>
       <Name>gost2814789t</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\handshake_table.vcxproj">
+    <ProjectReference Include="tests\handshake_table.vcxproj">
       <Project>{624F428F-D788-3882-AD23-510788E5C448}</Project>
       <Name>handshake_table</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\hkdf_test.vcxproj">
+    <ProjectReference Include="tests\hkdf_test.vcxproj">
       <Project>{FD80DC95-74C5-35EC-AF38-6E25767F6BE1}</Project>
       <Name>hkdf_test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\hmactest.vcxproj">
+    <ProjectReference Include="tests\hmactest.vcxproj">
       <Project>{272478F2-A31A-3FD9-BD89-0FC71278386C}</Project>
       <Name>hmactest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\ideatest.vcxproj">
+    <ProjectReference Include="tests\ideatest.vcxproj">
       <Project>{D81E5061-4258-351B-AFD4-B0A08665AA89}</Project>
       <Name>ideatest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\igetest.vcxproj">
+    <ProjectReference Include="tests\igetest.vcxproj">
       <Project>{2CA8EB01-9FA8-3182-8539-84584DDD3DC3}</Project>
       <Name>igetest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\key_schedule.vcxproj">
+    <ProjectReference Include="tests\key_schedule.vcxproj">
       <Project>{A3D97F2F-75C0-3F27-AA67-96336D5B1901}</Project>
       <Name>key_schedule</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\keypairtest.vcxproj">
+    <ProjectReference Include="tests\keypairtest.vcxproj">
       <Project>{66CDB98E-2752-3D51-9AC2-0C3E91A1DA59}</Project>
       <Name>keypairtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\md4test.vcxproj">
+    <ProjectReference Include="tests\md4test.vcxproj">
       <Project>{6A118DE6-6A99-381D-891A-CA900DCDF1CD}</Project>
       <Name>md4test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\md5test.vcxproj">
+    <ProjectReference Include="tests\md5test.vcxproj">
       <Project>{874B488B-E41E-3AA3-92F2-CBB6DCD32525}</Project>
       <Name>md5test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\mont.vcxproj">
+    <ProjectReference Include="tests\mont.vcxproj">
       <Project>{8E7EC4EB-EB6C-3A02-92C7-8262560527AE}</Project>
       <Name>mont</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\objectstest.vcxproj">
+    <ProjectReference Include="tests\objectstest.vcxproj">
       <Project>{524D498A-7A8A-3357-B8A0-527284771DE8}</Project>
       <Name>objectstest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\apps\openssl\openssl.vcxproj">
+    <ProjectReference Include="apps\openssl\openssl.vcxproj">
       <Project>{48DA1AAE-8F7F-331B-89C2-E7F3CEDE90E1}</Project>
       <Name>openssl</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\optionstest.vcxproj">
+    <ProjectReference Include="tests\optionstest.vcxproj">
       <Project>{F6ACCB95-94DD-396E-B9B0-D2FAE723AC48}</Project>
       <Name>optionstest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\pbkdf2.vcxproj">
+    <ProjectReference Include="tests\pbkdf2.vcxproj">
       <Project>{6C528AB1-8395-3526-8C34-A7EBD56A89C4}</Project>
       <Name>pbkdf2</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\pkcs7test.vcxproj">
+    <ProjectReference Include="tests\pkcs7test.vcxproj">
       <Project>{8B916BAB-CF38-31D8-8BE1-48EDE01C6783}</Project>
       <Name>pkcs7test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\poly1305test.vcxproj">
+    <ProjectReference Include="tests\poly1305test.vcxproj">
       <Project>{0C2018A7-02DC-32F5-855B-C6D0FFB38712}</Project>
       <Name>poly1305test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\pq_test.vcxproj">
+    <ProjectReference Include="tests\pq_test.vcxproj">
       <Project>{A9469443-D831-3624-89BD-FD1BE9DC5E1F}</Project>
       <Name>pq_test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\randtest.vcxproj">
+    <ProjectReference Include="tests\randtest.vcxproj">
       <Project>{DBE43FB0-9CD1-3332-8503-7A1BB3621A6D}</Project>
       <Name>randtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\rc2test.vcxproj">
+    <ProjectReference Include="tests\rc2test.vcxproj">
       <Project>{FB37B6EF-EBE3-3D61-A6E9-84B2972ABD53}</Project>
       <Name>rc2test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\rc4test.vcxproj">
+    <ProjectReference Include="tests\rc4test.vcxproj">
       <Project>{1C881052-6BEE-3B71-9A9D-6E2F6E694AA9}</Project>
       <Name>rc4test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\record_layer_test.vcxproj">
+    <ProjectReference Include="tests\record_layer_test.vcxproj">
       <Project>{DD87ECF6-FB5F-3D15-8745-92D880A7442A}</Project>
       <Name>record_layer_test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\recordtest.vcxproj">
+    <ProjectReference Include="tests\recordtest.vcxproj">
       <Project>{5A6F48BB-E87F-33F5-8043-E6363C2079EB}</Project>
       <Name>recordtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\rfc3779.vcxproj">
+    <ProjectReference Include="tests\rfc3779.vcxproj">
       <Project>{8FFBB3C1-A76D-3C72-BCFD-DCF6A424D91A}</Project>
       <Name>rfc3779</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\rfc5280time.vcxproj">
+    <ProjectReference Include="tests\rfc5280time.vcxproj">
       <Project>{88E018D4-05B9-3F98-A084-B0C909B2FF4E}</Project>
       <Name>rfc5280time</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\rmdtest.vcxproj">
+    <ProjectReference Include="tests\rmdtest.vcxproj">
       <Project>{8103333A-B267-3FEF-9AB0-F3E495576786}</Project>
       <Name>rmdtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\rsa_test.vcxproj">
+    <ProjectReference Include="tests\rsa_test.vcxproj">
       <Project>{467DCE27-C2BA-334C-B7F1-41B07A54EE03}</Project>
       <Name>rsa_test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\servertest.vcxproj">
+    <ProjectReference Include="tests\servertest.vcxproj">
       <Project>{BA7A7729-C6B6-398B-9291-7D479AA2942E}</Project>
       <Name>servertest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\sha1test.vcxproj">
+    <ProjectReference Include="tests\sha1test.vcxproj">
       <Project>{069E928A-F727-3C81-87D5-462FF2DB7E52}</Project>
       <Name>sha1test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\sha256test.vcxproj">
+    <ProjectReference Include="tests\sha256test.vcxproj">
       <Project>{7B27AC22-406C-3F99-9F07-D6B35DD23823}</Project>
       <Name>sha256test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\sha512test.vcxproj">
+    <ProjectReference Include="tests\sha512test.vcxproj">
       <Project>{FDFC7805-FBAA-3D03-B764-4821AFC5E08F}</Project>
       <Name>sha512test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\sm3test.vcxproj">
+    <ProjectReference Include="tests\sm3test.vcxproj">
       <Project>{11440B45-2B24-3651-AA5F-5C7A62DF0EAF}</Project>
       <Name>sm3test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\sm4test.vcxproj">
+    <ProjectReference Include="tests\sm4test.vcxproj">
       <Project>{C56469F1-0999-3B43-96CB-603CA4F037F0}</Project>
       <Name>sm4test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl.vcxproj">
+    <ProjectReference Include="ssl\ssl.vcxproj">
       <Project>{E56F9FE5-9509-3A85-8242-5F4F5BDB66E8}</Project>
       <Name>ssl</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl-static.vcxproj">
+    <ProjectReference Include="ssl\ssl-static.vcxproj">
       <Project>{11F9515D-D67E-34AF-AB51-E8A99BF15306}</Project>
       <Name>ssl-static</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\ssl_get_shared_ciphers.vcxproj">
+    <ProjectReference Include="tests\ssl_get_shared_ciphers.vcxproj">
       <Project>{84756339-7CE3-36B7-B800-ACF10DB7547C}</Project>
       <Name>ssl_get_shared_ciphers</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\ssl_methods.vcxproj">
+    <ProjectReference Include="tests\ssl_methods.vcxproj">
       <Project>{F2ADE820-1DF0-37DA-9467-2E6EC5ADECD7}</Project>
       <Name>ssl_methods</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\ssl\ssl_obj.vcxproj">
+    <ProjectReference Include="ssl\ssl_obj.vcxproj">
       <Project>{47429777-7590-3750-B608-81B4C2A37EBA}</Project>
       <Name>ssl_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\ssl_versions.vcxproj">
+    <ProjectReference Include="tests\ssl_versions.vcxproj">
       <Project>{83787363-4285-387E-9555-92A06B92057C}</Project>
       <Name>ssl_versions</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\ssltest.vcxproj">
+    <ProjectReference Include="tests\ssltest.vcxproj">
       <Project>{42ED77E9-E6E7-37A4-A32C-4C85BBF6D9DB}</Project>
       <Name>ssltest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\string_table.vcxproj">
+    <ProjectReference Include="tests\string_table.vcxproj">
       <Project>{06DC3A3F-0E4F-3A7D-87A0-874D8F62D020}</Project>
       <Name>string_table</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\timingsafe.vcxproj">
+    <ProjectReference Include="tests\timingsafe.vcxproj">
       <Project>{2BE06EAB-DDF8-3693-A970-F3BA8EC45014}</Project>
       <Name>timingsafe</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tls\tls.vcxproj">
+    <ProjectReference Include="tls\tls.vcxproj">
       <Project>{A4C90003-F5D2-3087-BC2E-2AC72C4C6C96}</Project>
       <Name>tls</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tls\tls-static.vcxproj">
+    <ProjectReference Include="tls\tls-static.vcxproj">
       <Project>{7702DBA0-A3AC-3973-87BD-67082D8BD2DE}</Project>
       <Name>tls-static</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\tls_ext_alpn.vcxproj">
+    <ProjectReference Include="tests\tls_ext_alpn.vcxproj">
       <Project>{F6D44800-B6A6-3256-ADC7-0E9F3A9D3F70}</Project>
       <Name>tls_ext_alpn</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tls\tls_obj.vcxproj">
+    <ProjectReference Include="tls\tls_obj.vcxproj">
       <Project>{4D00501E-163D-3890-B9A5-2C99ADC60633}</Project>
       <Name>tls_obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\tls_prf.vcxproj">
+    <ProjectReference Include="tests\tls_prf.vcxproj">
       <Project>{B122BF68-1CE9-33BF-AE16-D2C44B9DF2DB}</Project>
       <Name>tls_prf</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\tlsexttest.vcxproj">
+    <ProjectReference Include="tests\tlsexttest.vcxproj">
       <Project>{E683F801-E211-39FE-8E2D-FF3921247E73}</Project>
       <Name>tlsexttest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\tlslegacytest.vcxproj">
+    <ProjectReference Include="tests\tlslegacytest.vcxproj">
       <Project>{08F0F11C-8EF1-30DC-A4A2-0EDD9966F41B}</Project>
       <Name>tlslegacytest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\tlstest.vcxproj">
+    <ProjectReference Include="tests\tlstest.vcxproj">
       <Project>{C4577ED2-D037-3F57-BF9A-0E5644F71111}</Project>
       <Name>tlstest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\utf8test.vcxproj">
+    <ProjectReference Include="tests\utf8test.vcxproj">
       <Project>{50698757-31B5-3454-99BC-978E8266208D}</Project>
       <Name>utf8test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\valid_handshakes_terminate.vcxproj">
+    <ProjectReference Include="tests\valid_handshakes_terminate.vcxproj">
       <Project>{30547F81-1794-3000-B105-75F417F6C42F}</Project>
       <Name>valid_handshakes_terminate</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\verifytest.vcxproj">
+    <ProjectReference Include="tests\verifytest.vcxproj">
       <Project>{DA31D083-68A4-3A62-AFD0-B88F9DD99CC2}</Project>
       <Name>verifytest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\x25519test.vcxproj">
+    <ProjectReference Include="tests\x25519test.vcxproj">
       <Project>{28D28E8A-E573-3B25-B293-5993055417D1}</Project>
       <Name>x25519test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\x509_info.vcxproj">
+    <ProjectReference Include="tests\x509_info.vcxproj">
       <Project>{17E11AB0-9D6D-3C58-BA38-B5D87E3D0E58}</Project>
       <Name>x509_info</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\x509attribute.vcxproj">
+    <ProjectReference Include="tests\x509attribute.vcxproj">
       <Project>{F465D4EB-1DD5-3210-A882-62E0B9966D8D}</Project>
       <Name>x509attribute</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\x509name.vcxproj">
+    <ProjectReference Include="tests\x509name.vcxproj">
       <Project>{2514A912-3996-3F20-B6A2-96502D5258AD}</Project>
       <Name>x509name</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\micha\source\repos\michaelrsweet\libressl\build\tests\x509req_ext.vcxproj">
+    <ProjectReference Include="tests\x509req_ext.vcxproj">
       <Project>{2A8B5E8B-A1C4-3C9F-9E6F-988AA2A872FF}</Project>
       <Name>x509req_ext</Name>
     </ProjectReference>
