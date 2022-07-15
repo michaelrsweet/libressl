@@ -3,7 +3,7 @@
     <metadata>
         <id>libressl_native</id>
         <title>LibreSSL for VS2019+</title>
-        <version>3.5.3</version>
+        <version>3.5.3.1</version>
         <authors>Michael R Sweet, LibreSSL, OpenSSL</authors>
         <owners>michaelrsweet</owners>
         <projectUrl>https://www.libressl.org/</projectUrl>
@@ -14,12 +14,16 @@
         <copyright>Copyright (c) 1998-2011 The OpenSSL Project. Copyright (C) 1995-1998 Eric Young.</copyright>
         <tags>tls native</tags>
 	<dependencies>
-	    <dependency id="libressl_native.redist" version="3.5.3" />
+	    <dependency id="libressl_native.redist" version="3.5.3.1" />
 	</dependencies>
     </metadata>
     <files>
         <file src="README.md" target="build\native" />
         <file src="libressl_native.props" target="build\native" />
+        <file src="apps\Release\openssl.exe" target="build\native\bin" />
+        <file src="crypto\Release\*.dll" target="build\native\bin" />
+        <file src="ssl\Release\*.dll" target="build\native\bin" />
+        <file src="tls\Release\*.dll" target="build\native\bin" />
         <file src="..\include\*.h" target="build\native\include" />
         <file src="..\include\openssl\*.h" target="build\native\include\openssl" />
         <file src="crypto\Debug\*.lib" target="build\native\lib\x64\Debug" />
