@@ -1,162 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\apps.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\asn1pars.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ca.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ciphers.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\crl.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\crl2p7.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\cms.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\dgst.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\dh.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\dhparam.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\dsa.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\dsaparam.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ec.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ecparam.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\enc.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\errstr.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\gendh.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\gendsa.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\genpkey.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\genrsa.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\nseq.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ocsp.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\openssl.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\passwd.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkcs12.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkcs7.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkcs8.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkey.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkeyparam.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\pkeyutl.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\prime.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\rand.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\req.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\rsa.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\rsautl.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\s_cb.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\s_client.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\s_server.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\s_socket.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\s_time.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\sess_id.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\smime.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\speed.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\spkac.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\ts.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\verify.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\version.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\x509.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\apps_win.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\certhash_win.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\compat\poll_win.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="C:\Users\micha\source\repos\michaelrsweet\libressl\apps\openssl\CMakeLists.txt" />
+    <ClCompile Include="..\..\..\apps\openssl\apps.c" />
+    <ClCompile Include="..\..\..\apps\openssl\asn1pars.c" />
+    <ClCompile Include="..\..\..\apps\openssl\ca.c" />
+    <ClCompile Include="..\..\..\apps\openssl\ciphers.c" />
+    <ClCompile Include="..\..\..\apps\openssl\crl.c" />
+    <ClCompile Include="..\..\..\apps\openssl\crl2p7.c" />
+    <ClCompile Include="..\..\..\apps\openssl\cms.c" />
+    <ClCompile Include="..\..\..\apps\openssl\dgst.c" />
+    <ClCompile Include="..\..\..\apps\openssl\dh.c" />
+    <ClCompile Include="..\..\..\apps\openssl\dhparam.c" />
+    <ClCompile Include="..\..\..\apps\openssl\dsa.c" />
+    <ClCompile Include="..\..\..\apps\openssl\dsaparam.c" />
+    <ClCompile Include="..\..\..\apps\openssl\ec.c" />
+    <ClCompile Include="..\..\..\apps\openssl\ecparam.c" />
+    <ClCompile Include="..\..\..\apps\openssl\enc.c" />
+    <ClCompile Include="..\..\..\apps\openssl\errstr.c" />
+    <ClCompile Include="..\..\..\apps\openssl\gendh.c" />
+    <ClCompile Include="..\..\..\apps\openssl\gendsa.c" />
+    <ClCompile Include="..\..\..\apps\openssl\genpkey.c" />
+    <ClCompile Include="..\..\..\apps\openssl\genrsa.c" />
+    <ClCompile Include="..\..\..\apps\openssl\nseq.c" />
+    <ClCompile Include="..\..\..\apps\openssl\ocsp.c" />
+    <ClCompile Include="..\..\..\apps\openssl\openssl.c" />
+    <ClCompile Include="..\..\..\apps\openssl\passwd.c" />
+    <ClCompile Include="..\..\..\apps\openssl\pkcs12.c" />
+    <ClCompile Include="..\..\..\apps\openssl\pkcs7.c" />
+    <ClCompile Include="..\..\..\apps\openssl\pkcs8.c" />
+    <ClCompile Include="..\..\..\apps\openssl\pkey.c" />
+    <ClCompile Include="..\..\..\apps\openssl\pkeyparam.c" />
+    <ClCompile Include="..\..\..\apps\openssl\pkeyutl.c" />
+    <ClCompile Include="..\..\..\apps\openssl\prime.c" />
+    <ClCompile Include="..\..\..\apps\openssl\rand.c" />
+    <ClCompile Include="..\..\..\apps\openssl\req.c" />
+    <ClCompile Include="..\..\..\apps\openssl\rsa.c" />
+    <ClCompile Include="..\..\..\apps\openssl\rsautl.c" />
+    <ClCompile Include="..\..\..\apps\openssl\s_cb.c" />
+    <ClCompile Include="..\..\..\apps\openssl\s_client.c" />
+    <ClCompile Include="..\..\..\apps\openssl\s_server.c" />
+    <ClCompile Include="..\..\..\apps\openssl\s_socket.c" />
+    <ClCompile Include="..\..\..\apps\openssl\s_time.c" />
+    <ClCompile Include="..\..\..\apps\openssl\sess_id.c" />
+    <ClCompile Include="..\..\..\apps\openssl\smime.c" />
+    <ClCompile Include="..\..\..\apps\openssl\speed.c" />
+    <ClCompile Include="..\..\..\apps\openssl\spkac.c" />
+    <ClCompile Include="..\..\..\apps\openssl\ts.c" />
+    <ClCompile Include="..\..\..\apps\openssl\verify.c" />
+    <ClCompile Include="..\..\..\apps\openssl\version.c" />
+    <ClCompile Include="..\..\..\apps\openssl\x509.c" />
+    <ClCompile Include="..\..\..\apps\openssl\apps_win.c" />
+    <ClCompile Include="..\..\..\apps\openssl\certhash_win.c" />
+    <ClCompile Include="..\..\..\apps\openssl\compat\poll_win.c" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">

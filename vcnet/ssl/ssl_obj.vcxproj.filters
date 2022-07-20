@@ -1,156 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\bio_ssl.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\d1_both.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\d1_lib.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\d1_pkt.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\d1_srtp.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\pqueue.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\s3_cbc.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\s3_lib.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_algs.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_asn1.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_both.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_cert.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_ciph.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_ciphers.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_clnt.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_err.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_init.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_kex.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_lib.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_methods.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_packet.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_pkt.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_rsa.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_sess.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_sigalgs.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_srvr.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_stat.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_tlsext.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_transcript.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_txt.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\ssl_versions.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\t1_enc.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\t1_lib.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls_buffer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls_content.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls_key_share.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls12_key_schedule.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls12_lib.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls12_record_layer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls13_client.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls13_error.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls13_handshake.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls13_handshake_msg.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls13_key_schedule.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls13_legacy.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls13_lib.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls13_record.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls13_record_layer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\tls13_server.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="C:\Users\micha\source\repos\michaelrsweet\libressl\ssl\CMakeLists.txt" />
+    <ClCompile Include="..\..\ssl\bio_ssl.c" />
+    <ClCompile Include="..\..\ssl\d1_both.c" />
+    <ClCompile Include="..\..\ssl\d1_lib.c" />
+    <ClCompile Include="..\..\ssl\d1_pkt.c" />
+    <ClCompile Include="..\..\ssl\d1_srtp.c" />
+    <ClCompile Include="..\..\ssl\pqueue.c" />
+    <ClCompile Include="..\..\ssl\s3_cbc.c" />
+    <ClCompile Include="..\..\ssl\s3_lib.c" />
+    <ClCompile Include="..\..\ssl\ssl_algs.c" />
+    <ClCompile Include="..\..\ssl\ssl_asn1.c" />
+    <ClCompile Include="..\..\ssl\ssl_both.c" />
+    <ClCompile Include="..\..\ssl\ssl_cert.c" />
+    <ClCompile Include="..\..\ssl\ssl_ciph.c" />
+    <ClCompile Include="..\..\ssl\ssl_ciphers.c" />
+    <ClCompile Include="..\..\ssl\ssl_clnt.c" />
+    <ClCompile Include="..\..\ssl\ssl_err.c" />
+    <ClCompile Include="..\..\ssl\ssl_init.c" />
+    <ClCompile Include="..\..\ssl\ssl_kex.c" />
+    <ClCompile Include="..\..\ssl\ssl_lib.c" />
+    <ClCompile Include="..\..\ssl\ssl_methods.c" />
+    <ClCompile Include="..\..\ssl\ssl_packet.c" />
+    <ClCompile Include="..\..\ssl\ssl_pkt.c" />
+    <ClCompile Include="..\..\ssl\ssl_rsa.c" />
+    <ClCompile Include="..\..\ssl\ssl_sess.c" />
+    <ClCompile Include="..\..\ssl\ssl_sigalgs.c" />
+    <ClCompile Include="..\..\ssl\ssl_srvr.c" />
+    <ClCompile Include="..\..\ssl\ssl_stat.c" />
+    <ClCompile Include="..\..\ssl\ssl_tlsext.c" />
+    <ClCompile Include="..\..\ssl\ssl_transcript.c" />
+    <ClCompile Include="..\..\ssl\ssl_txt.c" />
+    <ClCompile Include="..\..\ssl\ssl_versions.c" />
+    <ClCompile Include="..\..\ssl\t1_enc.c" />
+    <ClCompile Include="..\..\ssl\t1_lib.c" />
+    <ClCompile Include="..\..\ssl\tls_buffer.c" />
+    <ClCompile Include="..\..\ssl\tls_content.c" />
+    <ClCompile Include="..\..\ssl\tls_key_share.c" />
+    <ClCompile Include="..\..\ssl\tls12_key_schedule.c" />
+    <ClCompile Include="..\..\ssl\tls12_lib.c" />
+    <ClCompile Include="..\..\ssl\tls12_record_layer.c" />
+    <ClCompile Include="..\..\ssl\tls13_client.c" />
+    <ClCompile Include="..\..\ssl\tls13_error.c" />
+    <ClCompile Include="..\..\ssl\tls13_handshake.c" />
+    <ClCompile Include="..\..\ssl\tls13_handshake_msg.c" />
+    <ClCompile Include="..\..\ssl\tls13_key_schedule.c" />
+    <ClCompile Include="..\..\ssl\tls13_legacy.c" />
+    <ClCompile Include="..\..\ssl\tls13_lib.c" />
+    <ClCompile Include="..\..\ssl\tls13_record.c" />
+    <ClCompile Include="..\..\ssl\tls13_record_layer.c" />
+    <ClCompile Include="..\..\ssl\tls13_server.c" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">

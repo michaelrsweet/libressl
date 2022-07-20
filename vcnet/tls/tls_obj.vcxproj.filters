@@ -1,54 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_bio_cb.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_client.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_config.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_conninfo.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_keypair.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_server.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_signer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_ocsp.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_peer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_util.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\tls_verify.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\compat\ftruncate.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\compat\pread.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\compat\pwrite.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="C:\Users\micha\source\repos\michaelrsweet\libressl\tls\CMakeLists.txt" />
+    <ClCompile Include="..\..\tls\tls.c" />
+    <ClCompile Include="..\..\tls\tls_bio_cb.c" />
+    <ClCompile Include="..\..\tls\tls_client.c" />
+    <ClCompile Include="..\..\tls\tls_config.c" />
+    <ClCompile Include="..\..\tls\tls_conninfo.c" />
+    <ClCompile Include="..\..\tls\tls_keypair.c" />
+    <ClCompile Include="..\..\tls\tls_server.c" />
+    <ClCompile Include="..\..\tls\tls_signer.c" />
+    <ClCompile Include="..\..\tls\tls_ocsp.c" />
+    <ClCompile Include="..\..\tls\tls_peer.c" />
+    <ClCompile Include="..\..\tls\tls_util.c" />
+    <ClCompile Include="..\..\tls\tls_verify.c" />
+    <ClCompile Include="..\..\tls\compat\ftruncate.c" />
+    <ClCompile Include="..\..\tls\compat\pread.c" />
+    <ClCompile Include="..\..\tls\compat\pwrite.c" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">

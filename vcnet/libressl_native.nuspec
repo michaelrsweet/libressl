@@ -20,7 +20,7 @@
     <files>
         <file src="README.md" target="build\native" />
         <file src="libressl_native.props" target="build\native" />
-        <file src="apps\Release\openssl.exe" target="build\native\bin" />
+        <file src="apps\openssl\Release\openssl.exe" target="build\native\bin" />
         <file src="crypto\Release\*.dll" target="build\native\bin" />
         <file src="ssl\Release\*.dll" target="build\native\bin" />
         <file src="tls\Release\*.dll" target="build\native\bin" />
