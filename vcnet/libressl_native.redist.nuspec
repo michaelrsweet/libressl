@@ -16,11 +16,7 @@
     </metadata>
     <files>
         <file src="README.md" target="build\native" />
-        <file src="crypto\Debug\*.dll" target="build\native\bin\x64\Debug" />
-        <file src="crypto\Release\*.dll" target="build\native\bin\x64\Release" />
-        <file src="ssl\Debug\*.dll" target="build\native\bin\x64\Debug" />
-        <file src="ssl\Release\*.dll" target="build\native\bin\x64\Release" />
-        <file src="tls\Debug\*.dll" target="build\native\bin\x64\Debug" />
-        <file src="tls\Release\*.dll" target="build\native\bin\x64\Release" />
+        <file src="x64\Debug\*.dll" target="build\native\bin\x64\Debug" />
+        <file src="x64\Release\*.dll" target="build\native\bin\x64\Release" />
     </files>
 </package>
