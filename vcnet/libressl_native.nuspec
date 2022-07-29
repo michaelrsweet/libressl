@@ -20,8 +20,8 @@
     <files>
         <file src="README.md" target="build\native" />
         <file src="libressl_native.props" target="build\native" />
-        <file src="x64\Release\openssl.exe" target="build\native\bin" />
-        <file src="x64\Release\*.dll" target="build\native\bin" />
+<!--        <file src="x64\Release\openssl.exe" target="build\native\bin" />
+        <file src="x64\Release\*.dll" target="build\native\bin" /> -->
         <file src="..\include\*.h" target="build\native\include" />
         <file src="..\include\openssl\*.h" target="build\native\include\openssl" />
         <file src="x64\Debug\*.lib" target="build\native\lib\x64\Debug" />
