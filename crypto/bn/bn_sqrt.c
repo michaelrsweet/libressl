@@ -1,4 +1,4 @@
-/* $OpenBSD: bn_sqrt.c,v 1.10 2022/03/15 15:52:39 tb Exp $ */
+/* $OpenBSD: bn_sqrt.c,v 1.15 2023/03/07 09:27:10 jsing Exp $ */
 /* Written by Lenka Fibikova <fibikova@exp-math.uni-essen.de>
  * and Bodo Moeller for the OpenSSL project. */
 /* ====================================================================
@@ -57,16 +57,18 @@
 
 #include <openssl/err.h>
 
-#include "bn_lcl.h"
+#include "bn_local.h"
+
+/*
+ * Returns 'ret' such that ret^2 == a (mod p), if it exists, using the
+ * Tonelli-Shanks algorithm following Henri Cohen, "A Course in Computational
+ * Algebraic Number Theory", algorithm 1.5.1, Springer, Berlin, 1996.
+ *
+ * Note: 'p' must be prime!
+ */
 
 BIGNUM *
 BN_mod_sqrt(BIGNUM *in, const BIGNUM *a, const BIGNUM *p, BN_CTX *ctx)
-/* Returns 'ret' such that
- *      ret^2 == a (mod p),
- * using the Tonelli/Shanks algorithm (cf. Henri Cohen, "A Course
- * in Algebraic Computational Number Theory", algorithm 1.5.1).
- * 'p' must be prime!
- */
 {
 	BIGNUM *ret = in;
 	int err = 1;
@@ -85,7 +87,6 @@ BN_mod_sqrt(BIGNUM *in, const BIGNUM *a, const BIGNUM *p, BN_CTX *ctx)
 					BN_free(ret);
 				return NULL;
 			}
-			bn_check_top(ret);
 			return ret;
 		}
 
@@ -103,7 +104,6 @@ BN_mod_sqrt(BIGNUM *in, const BIGNUM *a, const BIGNUM *p, BN_CTX *ctx)
 				BN_free(ret);
 			return NULL;
 		}
-		bn_check_top(ret);
 		return ret;
 	}
 
@@ -217,8 +217,9 @@ BN_mod_sqrt(BIGNUM *in, const BIGNUM *a, const BIGNUM *p, BN_CTX *ctx)
 
 	/* e > 2, so we really have to use the Tonelli/Shanks algorithm.
 	 * First, find some  y  that is not a square. */
-	if (!BN_copy(q, p)) goto end; /* use 'q' as temp */
-		q->neg = 0;
+	if (!BN_copy(q, p)) /* use 'q' as temp */
+		goto end;
+	q->neg = 0;
 	i = 2;
 	do {
 		/* For efficiency, try small numbers first;
@@ -253,10 +254,9 @@ BN_mod_sqrt(BIGNUM *in, const BIGNUM *a, const BIGNUM *p, BN_CTX *ctx)
 			BNerror(BN_R_P_IS_NOT_PRIME);
 			goto end;
 		}
-	}
-	while (r == 1 && ++i < 82);
+	} while (r == 1 && ++i < 82);
 
-		if (r != -1) {
+	if (r != -1) {
 		/* Many rounds and still no non-square -- this is more likely
 		 * a bug than just bad luck.
 		 * Even if  p  is not prime, we should have found some  y
@@ -302,8 +302,7 @@ BN_mod_sqrt(BIGNUM *in, const BIGNUM *a, const BIGNUM *p, BN_CTX *ctx)
 		goto end;
 
 	/* x := a^((q-1)/2) */
-	if (BN_is_zero(t)) /* special case: p = 2^e + 1 */
-	{
+	if (BN_is_zero(t)) { /* special case: p = 2^e + 1 */
 		if (!BN_nnmod(t, A, p, ctx))
 			goto end;
 		if (BN_is_zero(t)) {
@@ -401,11 +400,10 @@ vrfy:
 end:
 	if (err) {
 		if (ret != NULL && ret != in) {
-			BN_clear_free(ret);
+			BN_free(ret);
 		}
 		ret = NULL;
 	}
 	BN_CTX_end(ctx);
-	bn_check_top(ret);
 	return ret;
 }

@@ -1,4 +1,4 @@
-/* $OpenBSD: p12_npas.c,v 1.14 2021/11/01 20:53:08 tb Exp $ */
+/* $OpenBSD: p12_npas.c,v 1.18 2023/02/16 08:38:17 tb Exp $ */
 /* Written by Dr Stephen N Henson (steve@openssl.org) for the OpenSSL
  * project 1999.
  */
@@ -63,7 +63,8 @@
 #include <openssl/err.h>
 #include <openssl/pkcs12.h>
 
-#include "x509_lcl.h"
+#include "pkcs12_local.h"
+#include "x509_local.h"
 
 /* PKCS#12 password change routine */
 
@@ -102,6 +103,7 @@ PKCS12_newpass(PKCS12 *p12, const char *oldpass, const char *newpass)
 
 	return 1;
 }
+LCRYPTO_ALIAS(PKCS12_newpass);
 
 /* Parse the outer PKCS#12 structure */
 

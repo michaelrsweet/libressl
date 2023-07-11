@@ -1,4 +1,4 @@
-/* $OpenBSD: tls_key_share.c,v 1.4 2022/01/11 18:28:41 jsing Exp $ */
+/* $OpenBSD: tls_key_share.c,v 1.8 2022/11/26 16:08:56 tb Exp $ */
 /*
  * Copyright (c) 2020, 2021 Joel Sing <jsing@openbsd.org>
  *
@@ -23,7 +23,7 @@
 #include <openssl/evp.h>
 
 #include "bytestring.h"
-#include "ssl_locl.h"
+#include "ssl_local.h"
 #include "tls_internal.h"
 
 struct tls_key_share {
@@ -61,7 +61,7 @@ tls_key_share_new(uint16_t group_id)
 {
 	int nid;
 
-	if ((nid = tls1_ec_curve_id2nid(group_id)) == 0)
+	if (!tls1_ec_group_id2nid(group_id, &nid))
 		return NULL;
 
 	return tls_key_share_new_internal(nid, group_id);
@@ -73,7 +73,7 @@ tls_key_share_new_nid(int nid)
 	uint16_t group_id = 0;
 
 	if (nid != NID_dhKeyAgreement) {
-		if ((group_id = tls1_ec_nid2curve_id(nid)) == 0)
+		if (!tls1_ec_nid2group_id(nid, &group_id))
 			return NULL;
 	}
 
@@ -470,4 +470,15 @@ tls_key_share_derive(struct tls_key_share *ks, uint8_t **shared_key,
 
 	return tls_key_share_derive_ecdhe_ecp(ks, shared_key,
 	    shared_key_len);
+}
+
+int
+tls_key_share_peer_security(const SSL *ssl, struct tls_key_share *ks)
+{
+	switch (ks->nid) {
+	case NID_dhKeyAgreement:
+		return ssl_security_dh(ssl, ks->dhe_peer);
+	default:
+		return 0;
+	}
 }

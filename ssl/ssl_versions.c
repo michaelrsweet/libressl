@@ -1,4 +1,4 @@
-/* $OpenBSD: ssl_versions.c,v 1.22 2022/02/05 14:54:10 jsing Exp $ */
+/* $OpenBSD: ssl_versions.c,v 1.26 2022/11/26 16:08:56 tb Exp $ */
 /*
  * Copyright (c) 2016, 2017 Joel Sing <jsing@openbsd.org>
  *
@@ -15,7 +15,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include "ssl_locl.h"
+#include "ssl_local.h"
 
 static uint16_t
 ssl_dtls_to_tls_version(uint16_t dtls_ver)
@@ -140,13 +140,13 @@ ssl_enabled_tls_version_range(SSL *s, uint16_t *min_ver, uint16_t *max_ver)
 
 	min_version = 0;
 	max_version = TLS1_3_VERSION;
-	options = s->internal->options;
+	options = s->options;
 
 	if (SSL_is_dtls(s)) {
 		options = 0;
-		if (s->internal->options & SSL_OP_NO_DTLSv1)
+		if (s->options & SSL_OP_NO_DTLSv1)
 			options |= SSL_OP_NO_TLSv1 | SSL_OP_NO_TLSv1_1;
-		if (s->internal->options & SSL_OP_NO_DTLSv1_2)
+		if (s->options & SSL_OP_NO_DTLSv1_2)
 			options |= SSL_OP_NO_TLSv1 | SSL_OP_NO_TLSv1_2;
 	}
 
@@ -174,8 +174,16 @@ ssl_enabled_tls_version_range(SSL *s, uint16_t *min_ver, uint16_t *max_ver)
 
 	/* Limit to configured version range. */
 	if (!ssl_clamp_tls_version_range(&min_version, &max_version,
-	    s->internal->min_tls_version, s->internal->max_tls_version))
+	    s->min_tls_version, s->max_tls_version))
 		return 0;
+
+	/* QUIC requires a minimum of TLSv1.3. */
+	if (SSL_is_quic(s)) {
+		if (max_version < TLS1_3_VERSION)
+			return 0;
+		if (min_version < TLS1_3_VERSION)
+			min_version = TLS1_3_VERSION;
+	}
 
 	if (min_ver != NULL)
 		*min_ver = min_version;
@@ -329,6 +337,9 @@ ssl_max_shared_version(SSL *s, uint16_t peer_ver, uint16_t *max_ver)
 			return 0;
 	}
 
+	if (!ssl_security_version(s, shared_version))
+		return 0;
+
 	*max_ver = shared_version;
 
 	return 1;
@@ -352,8 +363,11 @@ ssl_check_version_from_server(SSL *s, uint16_t server_version)
 	    &max_tls_version))
 		return 0;
 
-	return (server_tls_version >= min_tls_version &&
-	    server_tls_version <= max_tls_version);
+	if (server_tls_version < min_tls_version ||
+	    server_tls_version > max_tls_version)
+		return 0;
+
+	return ssl_security_version(s, server_tls_version);
 }
 
 int

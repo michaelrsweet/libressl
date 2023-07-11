@@ -23,6 +23,7 @@ set(
 	ssl_packet.c
 	ssl_pkt.c
 	ssl_rsa.c
+	ssl_seclevel.c
 	ssl_sess.c
 	ssl_sigalgs.c
 	ssl_srvr.c
@@ -36,6 +37,7 @@ set(
 	tls_buffer.c
 	tls_content.c
 	tls_key_share.c
+	tls_lib.c
 	tls12_key_schedule.c
 	tls12_lib.c
 	tls12_record_layer.c
@@ -46,6 +48,7 @@ set(
 	tls13_key_schedule.c
 	tls13_legacy.c
 	tls13_lib.c
+	tls13_quic.c
 	tls13_record.c
 	tls13_record_layer.c
 	tls13_server.c
@@ -62,6 +65,7 @@ add_library(ssl_obj OBJECT ${SSL_SRC})
 target_include_directories(ssl_obj
 	PRIVATE
 		.
+		hidden
 		../crypto/bio
 		../include/compat
 	PUBLIC
@@ -76,7 +80,7 @@ target_include_directories(bs_obj
 if(BUILD_SHARED_LIBS)
 	add_library(ssl $<TARGET_OBJECTS:ssl_obj> $<TARGET_OBJECTS:bs_obj>)
 else()
-	add_library(ssl $<TARGET_OBJECTS:ssl_obj>)
+	add_library(ssl $<TARGET_OBJECTS:ssl_obj> empty.c)
 endif()
 
 export_symbol(ssl ${CMAKE_CURRENT_SOURCE_DIR}/ssl.sym)

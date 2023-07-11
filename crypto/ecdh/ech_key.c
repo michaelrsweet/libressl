@@ -1,4 +1,4 @@
-/* $OpenBSD: ech_key.c,v 1.12 2021/12/04 16:08:32 tb Exp $ */
+/* $OpenBSD: ech_key.c,v 1.14 2022/11/26 16:08:52 tb Exp $ */
 /* ====================================================================
  * Copyright 2002 Sun Microsystems, Inc. ALL RIGHTS RESERVED.
  *
@@ -74,12 +74,12 @@
 
 #include <openssl/bn.h>
 #include <openssl/err.h>
-#include <openssl/obj_mac.h>
+#include <openssl/objects.h>
 #include <openssl/sha.h>
 
-#include "bn_lcl.h"
-#include "ech_locl.h"
-#include "ec_lcl.h"
+#include "bn_local.h"
+#include "ech_local.h"
+#include "ec_local.h"
 
 static int ecdh_compute_key(void *out, size_t len, const EC_POINT *pub_key,
     EC_KEY *ecdh,

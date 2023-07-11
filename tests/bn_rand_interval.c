@@ -1,4 +1,4 @@
-/*	$OpenBSD: bn_rand_interval.c,v 1.4 2021/04/06 16:40:34 tb Exp $	*/
+/*	$OpenBSD: bn_rand_interval.c,v 1.2 2023/03/08 06:44:45 tb Exp $	*/
 /*
  * Copyright (c) 2018 Theo Buehler <tb@openbsd.org>
  *
@@ -20,7 +20,7 @@
 
 #include <openssl/bn.h>
 
-#define NUM_TESTS 1000000
+#define NUM_TESTS 10000
 
 int bn_rand_interval(BIGNUM *rnd, const BIGNUM *lower_incl,
     const BIGNUM *upper_excl);
@@ -103,11 +103,6 @@ main(int argc, char *argv[])
 			print_triple(a, b, x);
 		}
 	}
-
-	if (success == 1)
-		printf("success\n");
-	else
-		printf("FAIL");
 
 	BN_free(a);
 	BN_free(b);

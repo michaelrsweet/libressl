@@ -1,4 +1,4 @@
-/* $OpenBSD: a_time.c,v 1.33 2021/12/25 07:48:09 jsing Exp $ */
+/* $OpenBSD: a_time.c,v 1.36 2022/11/26 16:08:50 tb Exp $ */
 /* ====================================================================
  * Copyright (c) 1999 The OpenSSL Project.  All rights reserved.
  *
@@ -67,8 +67,7 @@
 #include <openssl/asn1t.h>
 #include <openssl/err.h>
 
-#include "o_time.h"
-#include "asn1_locl.h"
+#include "asn1_local.h"
 
 const ASN1_ITEM ASN1_TIME_it = {
 	.itype = ASN1_ITYPE_MSTRING,
@@ -92,8 +91,7 @@ ASN1_TIME_free(ASN1_TIME *a)
 	ASN1_item_free((ASN1_VALUE *)a, &ASN1_TIME_it);
 }
 
-/* Public API in OpenSSL. Kept internal for now. */
-static int
+int
 ASN1_TIME_to_tm(const ASN1_TIME *s, struct tm *tm)
 {
 	time_t now;
@@ -104,7 +102,7 @@ ASN1_TIME_to_tm(const ASN1_TIME *s, struct tm *tm)
 	time(&now);
 	memset(tm, 0, sizeof(*tm));
 
-	return gmtime_r(&now, tm) != NULL;
+	return asn1_time_time_t_to_tm(&now, tm);
 }
 
 int

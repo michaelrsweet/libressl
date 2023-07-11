@@ -1,4 +1,4 @@
-/*	$OpenBSD: x509_asid.c,v 1.30 2021/12/25 15:46:05 tb Exp $ */
+/*	$OpenBSD: x509_asid.c,v 1.39 2023/02/16 08:38:17 tb Exp $ */
 /*
  * Contributed to the OpenSSL Project by the American Registry for
  * Internet Numbers ("ARIN").
@@ -73,7 +73,7 @@
 #include <openssl/x509.h>
 #include <openssl/x509v3.h>
 
-#include "x509_lcl.h"
+#include "x509_local.h"
 
 #ifndef OPENSSL_NO_RFC3779
 
@@ -191,24 +191,28 @@ d2i_ASRange(ASRange **a, const unsigned char **in, long len)
 	return (ASRange *)ASN1_item_d2i((ASN1_VALUE **)a, in, len,
 	    &ASRange_it);
 }
+LCRYPTO_ALIAS(d2i_ASRange);
 
 int
 i2d_ASRange(ASRange *a, unsigned char **out)
 {
 	return ASN1_item_i2d((ASN1_VALUE *)a, out, &ASRange_it);
 }
+LCRYPTO_ALIAS(i2d_ASRange);
 
 ASRange *
 ASRange_new(void)
 {
 	return (ASRange *)ASN1_item_new(&ASRange_it);
 }
+LCRYPTO_ALIAS(ASRange_new);
 
 void
 ASRange_free(ASRange *a)
 {
 	ASN1_item_free((ASN1_VALUE *)a, &ASRange_it);
 }
+LCRYPTO_ALIAS(ASRange_free);
 
 ASIdOrRange *
 d2i_ASIdOrRange(ASIdOrRange **a, const unsigned char **in, long len)
@@ -216,24 +220,28 @@ d2i_ASIdOrRange(ASIdOrRange **a, const unsigned char **in, long len)
 	return (ASIdOrRange *)ASN1_item_d2i((ASN1_VALUE **)a, in, len,
 	    &ASIdOrRange_it);
 }
+LCRYPTO_ALIAS(d2i_ASIdOrRange);
 
 int
 i2d_ASIdOrRange(ASIdOrRange *a, unsigned char **out)
 {
 	return ASN1_item_i2d((ASN1_VALUE *)a, out, &ASIdOrRange_it);
 }
+LCRYPTO_ALIAS(i2d_ASIdOrRange);
 
 ASIdOrRange *
 ASIdOrRange_new(void)
 {
 	return (ASIdOrRange *)ASN1_item_new(&ASIdOrRange_it);
 }
+LCRYPTO_ALIAS(ASIdOrRange_new);
 
 void
 ASIdOrRange_free(ASIdOrRange *a)
 {
 	ASN1_item_free((ASN1_VALUE *)a, &ASIdOrRange_it);
 }
+LCRYPTO_ALIAS(ASIdOrRange_free);
 
 ASIdentifierChoice *
 d2i_ASIdentifierChoice(ASIdentifierChoice **a, const unsigned char **in,
@@ -242,24 +250,28 @@ d2i_ASIdentifierChoice(ASIdentifierChoice **a, const unsigned char **in,
 	return (ASIdentifierChoice *)ASN1_item_d2i((ASN1_VALUE **)a, in, len,
 	    &ASIdentifierChoice_it);
 }
+LCRYPTO_ALIAS(d2i_ASIdentifierChoice);
 
 int
 i2d_ASIdentifierChoice(ASIdentifierChoice *a, unsigned char **out)
 {
 	return ASN1_item_i2d((ASN1_VALUE *)a, out, &ASIdentifierChoice_it);
 }
+LCRYPTO_ALIAS(i2d_ASIdentifierChoice);
 
 ASIdentifierChoice *
 ASIdentifierChoice_new(void)
 {
 	return (ASIdentifierChoice *)ASN1_item_new(&ASIdentifierChoice_it);
 }
+LCRYPTO_ALIAS(ASIdentifierChoice_new);
 
 void
 ASIdentifierChoice_free(ASIdentifierChoice *a)
 {
 	ASN1_item_free((ASN1_VALUE *)a, &ASIdentifierChoice_it);
 }
+LCRYPTO_ALIAS(ASIdentifierChoice_free);
 
 ASIdentifiers *
 d2i_ASIdentifiers(ASIdentifiers **a, const unsigned char **in, long len)
@@ -267,24 +279,28 @@ d2i_ASIdentifiers(ASIdentifiers **a, const unsigned char **in, long len)
 	return (ASIdentifiers *)ASN1_item_d2i((ASN1_VALUE **)a, in, len,
 	    &ASIdentifiers_it);
 }
+LCRYPTO_ALIAS(d2i_ASIdentifiers);
 
 int
 i2d_ASIdentifiers(ASIdentifiers *a, unsigned char **out)
 {
 	return ASN1_item_i2d((ASN1_VALUE *)a, out, &ASIdentifiers_it);
 }
+LCRYPTO_ALIAS(i2d_ASIdentifiers);
 
 ASIdentifiers *
 ASIdentifiers_new(void)
 {
 	return (ASIdentifiers *)ASN1_item_new(&ASIdentifiers_it);
 }
+LCRYPTO_ALIAS(ASIdentifiers_new);
 
 void
 ASIdentifiers_free(ASIdentifiers *a)
 {
 	ASN1_item_free((ASN1_VALUE *)a, &ASIdentifiers_it);
 }
+LCRYPTO_ALIAS(ASIdentifiers_free);
 
 /*
  * i2r method for an ASIdentifierChoice.
@@ -412,6 +428,7 @@ X509v3_asid_add_inherit(ASIdentifiers *asid, int which)
 	}
 	return (*choice)->type == ASIdentifierChoice_inherit;
 }
+LCRYPTO_ALIAS(X509v3_asid_add_inherit);
 
 /*
  * Add an ID or range to an ASIdentifierChoice.
@@ -466,6 +483,7 @@ X509v3_asid_add_id_or_range(ASIdentifiers *asid, int which, ASN1_INTEGER *min,
 	ASIdOrRange_free(aor);
 	return 0;
 }
+LCRYPTO_ALIAS(X509v3_asid_add_id_or_range);
 
 /*
  * Extract min and max values from an ASIdOrRange.
@@ -562,8 +580,8 @@ ASIdentifierChoice_is_canonical(ASIdentifierChoice *choice)
 	}
 
 	/*
-	* Check for inverted range.
-	*/
+	 * Check for inverted range.
+	 */
 	i = sk_ASIdOrRange_num(choice->u.asIdsOrRanges) - 1;
 	{
 		ASIdOrRange *a = sk_ASIdOrRange_value(choice->u.asIdsOrRanges,
@@ -594,6 +612,7 @@ X509v3_asid_is_canonical(ASIdentifiers *asid)
 	    (ASIdentifierChoice_is_canonical(asid->asnum) &&
 	     ASIdentifierChoice_is_canonical(asid->rdi)));
 }
+LCRYPTO_ALIAS(X509v3_asid_is_canonical);
 
 /*
  * Whack an ASIdentifierChoice into canonical form.
@@ -753,10 +772,15 @@ ASIdentifierChoice_canonize(ASIdentifierChoice *choice)
 int
 X509v3_asid_canonize(ASIdentifiers *asid)
 {
-	return (asid == NULL ||
-	    (ASIdentifierChoice_canonize(asid->asnum) &&
-	     ASIdentifierChoice_canonize(asid->rdi)));
+	if (asid == NULL)
+		return 1;
+
+	if (!ASIdentifierChoice_canonize(asid->asnum))
+		return 0;
+
+	return ASIdentifierChoice_canonize(asid->rdi);
 }
+LCRYPTO_ALIAS(X509v3_asid_canonize);
 
 /*
  * v2i method for an ASIdentifier extension.
@@ -900,12 +924,22 @@ const X509V3_EXT_METHOD v3_asid = {
 int
 X509v3_asid_inherits(ASIdentifiers *asid)
 {
-	return (asid != NULL &&
-	    ((asid->asnum != NULL &&
-	      asid->asnum->type == ASIdentifierChoice_inherit) ||
-	     (asid->rdi != NULL &&
-	      asid->rdi->type == ASIdentifierChoice_inherit)));
+	if (asid == NULL)
+		return 0;
+
+	if (asid->asnum != NULL) {
+		if (asid->asnum->type == ASIdentifierChoice_inherit)
+			return 1;
+	}
+
+	if (asid->rdi != NULL) {
+		if (asid->rdi->type == ASIdentifierChoice_inherit)
+			return 1;
+	}
+
+	return 0;
 }
+LCRYPTO_ALIAS(X509v3_asid_inherits);
 
 /*
  * Figure out whether parent contains child.
@@ -918,6 +952,7 @@ asid_contains(ASIdOrRanges *parent, ASIdOrRanges *child)
 
 	if (child == NULL || parent == child)
 		return 1;
+
 	if (parent == NULL)
 		return 0;
 
@@ -944,21 +979,41 @@ asid_contains(ASIdOrRanges *parent, ASIdOrRanges *child)
 }
 
 /*
- * Test whether a is a subset of b.
+ * Test whether child is a subset of parent.
  */
 int
-X509v3_asid_subset(ASIdentifiers *a, ASIdentifiers *b)
+X509v3_asid_subset(ASIdentifiers *child, ASIdentifiers *parent)
 {
-	return (a == NULL ||
-	    a == b ||
-	    (b != NULL &&
-	     !X509v3_asid_inherits(a) &&
-	     !X509v3_asid_inherits(b) &&
-	     asid_contains(b->asnum->u.asIdsOrRanges,
-	     a->asnum->u.asIdsOrRanges) &&
-	     asid_contains(b->rdi->u.asIdsOrRanges,
-	     a->rdi->u.asIdsOrRanges)));
+	if (child == NULL || child == parent)
+		return 1;
+
+	if (parent == NULL)
+		return 0;
+
+	if (X509v3_asid_inherits(child) || X509v3_asid_inherits(parent))
+		return 0;
+
+	if (child->asnum != NULL) {
+		if (parent->asnum == NULL)
+			return 0;
+
+		if (!asid_contains(parent->asnum->u.asIdsOrRanges,
+		    child->asnum->u.asIdsOrRanges))
+			return 0;
+	}
+
+	if (child->rdi != NULL) {
+		if (parent->rdi == NULL)
+			return 0;
+
+		if (!asid_contains(parent->rdi->u.asIdsOrRanges,
+		    child->rdi->u.asIdsOrRanges))
+			return 0;
+	}
+
+	return 1;
 }
+LCRYPTO_ALIAS(X509v3_asid_subset);
 
 /*
  * Validation error handling via callback.
@@ -999,21 +1054,23 @@ asid_validate_path_internal(X509_STORE_CTX *ctx, STACK_OF(X509) *chain,
 		goto err;
 
 	/*
-	 * Figure out where to start.  If we don't have an extension to
-	 * check, we're done.  Otherwise, check canonical form and
-	 * set up for walking up the chain.
+	 * Figure out where to start. If we don't have an extension to check,
+	 * (either extracted from the leaf or passed by the caller), we're done.
+	 * Otherwise, check canonical form and set up for walking up the chain.
 	 */
 	if (ext != NULL) {
 		i = -1;
 		x = NULL;
+		if (!X509v3_asid_is_canonical(ext))
+			validation_err(X509_V_ERR_INVALID_EXTENSION);
 	} else {
 		i = 0;
 		x = sk_X509_value(chain, i);
+		if ((X509_get_extension_flags(x) & EXFLAG_INVALID) != 0)
+			goto done;
 		if ((ext = x->rfc3779_asid) == NULL)
 			goto done;
 	}
-	if (!X509v3_asid_is_canonical(ext))
-		validation_err(X509_V_ERR_INVALID_EXTENSION);
 	if (ext->asnum != NULL) {
 		switch (ext->asnum->type) {
 		case ASIdentifierChoice_inherit:
@@ -1042,13 +1099,13 @@ asid_validate_path_internal(X509_STORE_CTX *ctx, STACK_OF(X509) *chain,
 	for (i++; i < sk_X509_num(chain); i++) {
 		x = sk_X509_value(chain, i);
 
+		if ((X509_get_extension_flags(x) & EXFLAG_INVALID) != 0)
+			validation_err(X509_V_ERR_INVALID_EXTENSION);
 		if (x->rfc3779_asid == NULL) {
 			if (child_as != NULL || child_rdi != NULL)
 				validation_err(X509_V_ERR_UNNESTED_RESOURCE);
 			continue;
 		}
-		if (!X509v3_asid_is_canonical(x->rfc3779_asid))
-			validation_err(X509_V_ERR_INVALID_EXTENSION);
 		if (x->rfc3779_asid->asnum == NULL && child_as != NULL) {
 			validation_err(X509_V_ERR_UNNESTED_RESOURCE);
 			child_as = NULL;
@@ -1124,6 +1181,7 @@ X509v3_asid_validate_path(X509_STORE_CTX *ctx)
 	}
 	return asid_validate_path_internal(ctx, ctx->chain, NULL);
 }
+LCRYPTO_ALIAS(X509v3_asid_validate_path);
 
 /*
  * RFC 3779 3.3 path validation of an extension.
@@ -1141,5 +1199,6 @@ X509v3_asid_validate_resource_set(STACK_OF(X509) *chain, ASIdentifiers *ext,
 		return 0;
 	return asid_validate_path_internal(NULL, chain, ext);
 }
+LCRYPTO_ALIAS(X509v3_asid_validate_resource_set);
 
 #endif                          /* OPENSSL_NO_RFC3779 */

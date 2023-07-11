@@ -1,4 +1,4 @@
-/* $OpenBSD: x509_vpm.c,v 1.28 2021/11/01 20:53:08 tb Exp $ */
+/* $OpenBSD: x509_vpm.c,v 1.33 2023/02/16 08:38:17 tb Exp $ */
 /* Written by Dr Stephen N Henson (steve@openssl.org) for the OpenSSL
  * project 2004.
  */
@@ -67,7 +67,7 @@
 #include <openssl/x509v3.h>
 
 #include "vpm_int.h"
-#include "x509_lcl.h"
+#include "x509_local.h"
 
 /* X509_VERIFY_PARAM functions */
 
@@ -218,6 +218,7 @@ X509_VERIFY_PARAM_new(void)
 	x509_verify_param_zero(param);
 	return param;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_new);
 
 void
 X509_VERIFY_PARAM_free(X509_VERIFY_PARAM *param)
@@ -228,6 +229,7 @@ X509_VERIFY_PARAM_free(X509_VERIFY_PARAM *param)
 	free(param->id);
 	free(param);
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_free);
 
 /*
  * This function determines how parameters are "inherited" from one structure
@@ -328,7 +330,9 @@ X509_VERIFY_PARAM_inherit(X509_VERIFY_PARAM *dest, const X509_VERIFY_PARAM *src)
 			return 0;
 	}
 
-	/* Copy the host flags if and only if we're copying the host list */
+	if (test_x509_verify_param_copy_id(hostflags, 0))
+		dest->id->hostflags = id->hostflags;
+
 	if (test_x509_verify_param_copy_id(hosts, NULL)) {
 		if (dest->id->hosts) {
 			string_stack_free(dest->id->hosts);
@@ -339,7 +343,6 @@ X509_VERIFY_PARAM_inherit(X509_VERIFY_PARAM *dest, const X509_VERIFY_PARAM *src)
 			    sk_deep_copy(id->hosts, strdup, str_free);
 			if (dest->id->hosts == NULL)
 				return 0;
-			dest->id->hostflags = id->hostflags;
 		}
 	}
 
@@ -356,6 +359,7 @@ X509_VERIFY_PARAM_inherit(X509_VERIFY_PARAM *dest, const X509_VERIFY_PARAM *src)
 
 	return 1;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_inherit);
 
 int
 X509_VERIFY_PARAM_set1(X509_VERIFY_PARAM *to, const X509_VERIFY_PARAM *from)
@@ -368,6 +372,7 @@ X509_VERIFY_PARAM_set1(X509_VERIFY_PARAM *to, const X509_VERIFY_PARAM *from)
 	to->inh_flags = save_flags;
 	return ret;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set1);
 
 static int
 x509_param_set1_internal(char **pdest, size_t *pdestlen,  const char *src,
@@ -412,6 +417,7 @@ X509_VERIFY_PARAM_set1_name(X509_VERIFY_PARAM *param, const char *name)
 		return 1;
 	return 0;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set1_name);
 
 int
 X509_VERIFY_PARAM_set_flags(X509_VERIFY_PARAM *param, unsigned long flags)
@@ -421,6 +427,7 @@ X509_VERIFY_PARAM_set_flags(X509_VERIFY_PARAM *param, unsigned long flags)
 		param->flags |= X509_V_FLAG_POLICY_CHECK;
 	return 1;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set_flags);
 
 int
 X509_VERIFY_PARAM_clear_flags(X509_VERIFY_PARAM *param, unsigned long flags)
@@ -428,30 +435,49 @@ X509_VERIFY_PARAM_clear_flags(X509_VERIFY_PARAM *param, unsigned long flags)
 	param->flags &= ~flags;
 	return 1;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_clear_flags);
 
 unsigned long
 X509_VERIFY_PARAM_get_flags(X509_VERIFY_PARAM *param)
 {
 	return param->flags;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_get_flags);
 
 int
 X509_VERIFY_PARAM_set_purpose(X509_VERIFY_PARAM *param, int purpose)
 {
 	return X509_PURPOSE_set(&param->purpose, purpose);
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set_purpose);
 
 int
 X509_VERIFY_PARAM_set_trust(X509_VERIFY_PARAM *param, int trust)
 {
 	return X509_TRUST_set(&param->trust, trust);
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set_trust);
 
 void
 X509_VERIFY_PARAM_set_depth(X509_VERIFY_PARAM *param, int depth)
 {
 	param->depth = depth;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set_depth);
+
+void
+X509_VERIFY_PARAM_set_auth_level(X509_VERIFY_PARAM *param, int auth_level)
+{
+	param->security_level = auth_level;
+}
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set_auth_level);
+
+time_t
+X509_VERIFY_PARAM_get_time(const X509_VERIFY_PARAM *param)
+{
+	return param->check_time;
+}
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_get_time);
 
 void
 X509_VERIFY_PARAM_set_time(X509_VERIFY_PARAM *param, time_t t)
@@ -459,6 +485,7 @@ X509_VERIFY_PARAM_set_time(X509_VERIFY_PARAM *param, time_t t)
 	param->check_time = t;
 	param->flags |= X509_V_FLAG_USE_CHECK_TIME;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set_time);
 
 int
 X509_VERIFY_PARAM_add0_policy(X509_VERIFY_PARAM *param, ASN1_OBJECT *policy)
@@ -472,6 +499,7 @@ X509_VERIFY_PARAM_add0_policy(X509_VERIFY_PARAM *param, ASN1_OBJECT *policy)
 		return 0;
 	return 1;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_add0_policy);
 
 int
 X509_VERIFY_PARAM_set1_policies(X509_VERIFY_PARAM *param,
@@ -507,6 +535,7 @@ X509_VERIFY_PARAM_set1_policies(X509_VERIFY_PARAM *param,
 	param->flags |= X509_V_FLAG_POLICY_CHECK;
 	return 1;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set1_policies);
 
 int
 X509_VERIFY_PARAM_set1_host(X509_VERIFY_PARAM *param,
@@ -517,6 +546,7 @@ X509_VERIFY_PARAM_set1_host(X509_VERIFY_PARAM *param,
 	param->id->poisoned = 1;
 	return 0;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set1_host);
 
 int
 X509_VERIFY_PARAM_add1_host(X509_VERIFY_PARAM *param,
@@ -527,18 +557,21 @@ X509_VERIFY_PARAM_add1_host(X509_VERIFY_PARAM *param,
 	param->id->poisoned = 1;
 	return 0;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_add1_host);
 
 void
 X509_VERIFY_PARAM_set_hostflags(X509_VERIFY_PARAM *param, unsigned int flags)
 {
 	param->id->hostflags = flags;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set_hostflags);
 
 char *
 X509_VERIFY_PARAM_get0_peername(X509_VERIFY_PARAM *param)
 {
 	return param->id->peername;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_get0_peername);
 
 int
 X509_VERIFY_PARAM_set1_email(X509_VERIFY_PARAM *param,  const char *email,
@@ -550,6 +583,7 @@ X509_VERIFY_PARAM_set1_email(X509_VERIFY_PARAM *param,  const char *email,
 	param->id->poisoned = 1;
 	return 0;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set1_email);
 
 int
 X509_VERIFY_PARAM_set1_ip(X509_VERIFY_PARAM *param, const unsigned char *ip,
@@ -564,6 +598,7 @@ X509_VERIFY_PARAM_set1_ip(X509_VERIFY_PARAM *param, const unsigned char *ip,
 	param->id->poisoned = 1;
 	return 0;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set1_ip);
 
 int
 X509_VERIFY_PARAM_set1_ip_asc(X509_VERIFY_PARAM *param, const char *ipasc)
@@ -574,18 +609,21 @@ X509_VERIFY_PARAM_set1_ip_asc(X509_VERIFY_PARAM *param, const char *ipasc)
 	iplen = (size_t)a2i_ipadd(ipout, ipasc);
 	return X509_VERIFY_PARAM_set1_ip(param, ipout, iplen);
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_set1_ip_asc);
 
 int
 X509_VERIFY_PARAM_get_depth(const X509_VERIFY_PARAM *param)
 {
 	return param->depth;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_get_depth);
 
 const char *
 X509_VERIFY_PARAM_get0_name(const X509_VERIFY_PARAM *param)
 {
 	return param->name;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_get0_name);
 
 static const X509_VERIFY_PARAM_ID _empty_id = { NULL };
 
@@ -667,6 +705,7 @@ X509_VERIFY_PARAM_add0_table(X509_VERIFY_PARAM *param)
 		return 0;
 	return 1;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_add0_table);
 
 int
 X509_VERIFY_PARAM_get_count(void)
@@ -676,6 +715,7 @@ X509_VERIFY_PARAM_get_count(void)
 		num += sk_X509_VERIFY_PARAM_num(param_table);
 	return num;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_get_count);
 
 const X509_VERIFY_PARAM *
 X509_VERIFY_PARAM_get0(int id)
@@ -685,6 +725,7 @@ X509_VERIFY_PARAM_get0(int id)
 		return default_table + id;
 	return sk_X509_VERIFY_PARAM_value(param_table, id - num);
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_get0);
 
 const X509_VERIFY_PARAM *
 X509_VERIFY_PARAM_lookup(const char *name)
@@ -707,6 +748,7 @@ X509_VERIFY_PARAM_lookup(const char *name)
 	}
 	return NULL;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_lookup);
 
 void
 X509_VERIFY_PARAM_table_cleanup(void)
@@ -716,3 +758,4 @@ X509_VERIFY_PARAM_table_cleanup(void)
 		    X509_VERIFY_PARAM_free);
 	param_table = NULL;
 }
+LCRYPTO_ALIAS(X509_VERIFY_PARAM_table_cleanup);

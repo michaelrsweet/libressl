@@ -1,4 +1,4 @@
-/* $OpenBSD: x_pubkey.c,v 1.31 2021/12/25 13:17:48 jsing Exp $ */
+/* $OpenBSD: x_pubkey.c,v 1.33 2022/11/26 16:08:50 tb Exp $ */
 /* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
  * All rights reserved.
  *
@@ -71,9 +71,9 @@
 #include <openssl/rsa.h>
 #endif
 
-#include "asn1_locl.h"
-#include "evp_locl.h"
-#include "x509_lcl.h"
+#include "asn1_local.h"
+#include "evp_local.h"
+#include "x509_local.h"
 
 /* Minor tweak to operation: free up EVP_PKEY */
 static int
@@ -716,15 +716,13 @@ X509_PUBKEY_set0_param(X509_PUBKEY *pub, ASN1_OBJECT *aobj, int ptype,
 {
 	if (!X509_ALGOR_set0(pub->algor, aobj, ptype, pval))
 		return 0;
-	if (penc) {
-		free(pub->public_key->data);
-		pub->public_key->data = penc;
-		pub->public_key->length = penclen;
-		/* Set number of unused bits to zero */
-		pub->public_key->flags&= ~(ASN1_STRING_FLAG_BITS_LEFT|0x07);
-		pub->public_key->flags |= ASN1_STRING_FLAG_BITS_LEFT;
-	}
-	return 1;
+
+	if (penc == NULL)
+		return 1;
+
+	ASN1_STRING_set0(pub->public_key, penc, penclen);
+
+	return asn1_abs_set_unused_bits(pub->public_key, 0);
 }
 
 int

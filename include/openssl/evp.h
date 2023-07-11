@@ -1,4 +1,4 @@
-/* $OpenBSD: evp.h,v 1.99 2022/01/14 08:38:05 tb Exp $ */
+/* $OpenBSD: evp.h,v 1.114 2023/03/10 16:41:07 tb Exp $ */
 /* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
  * All rights reserved.
  *
@@ -97,23 +97,26 @@
 #define EVP_PKS_EC	0x0400
 #define EVP_PKT_EXP	0x1000 /* <= 512 bit key */
 
-#define EVP_PKEY_NONE	NID_undef
-#define EVP_PKEY_RSA	NID_rsaEncryption
-#define EVP_PKEY_RSA_PSS NID_rsassaPss
-#define EVP_PKEY_RSA2	NID_rsa
-#define EVP_PKEY_DSA	NID_dsa
-#define EVP_PKEY_DSA1	NID_dsa_2
-#define EVP_PKEY_DSA2	NID_dsaWithSHA
-#define EVP_PKEY_DSA3	NID_dsaWithSHA1
-#define EVP_PKEY_DSA4	NID_dsaWithSHA1_2
-#define EVP_PKEY_DH	NID_dhKeyAgreement
-#define EVP_PKEY_EC	NID_X9_62_id_ecPublicKey
-#define EVP_PKEY_GOSTR01 NID_id_GostR3410_2001
-#define EVP_PKEY_GOSTIMIT NID_id_Gost28147_89_MAC
-#define EVP_PKEY_HMAC	NID_hmac
-#define EVP_PKEY_CMAC	NID_cmac
-#define EVP_PKEY_GOSTR12_256 NID_id_tc26_gost3410_2012_256
-#define EVP_PKEY_GOSTR12_512 NID_id_tc26_gost3410_2012_512
+#define EVP_PKEY_NONE		NID_undef
+#define EVP_PKEY_RSA		NID_rsaEncryption
+#define EVP_PKEY_RSA_PSS	NID_rsassaPss
+#define EVP_PKEY_RSA2		NID_rsa
+#define EVP_PKEY_DSA		NID_dsa
+#define EVP_PKEY_DSA1		NID_dsa_2
+#define EVP_PKEY_DSA2		NID_dsaWithSHA
+#define EVP_PKEY_DSA3		NID_dsaWithSHA1
+#define EVP_PKEY_DSA4		NID_dsaWithSHA1_2
+#define EVP_PKEY_DH		NID_dhKeyAgreement
+#define EVP_PKEY_EC		NID_X9_62_id_ecPublicKey
+#define EVP_PKEY_GOSTR01	NID_id_GostR3410_2001
+#define EVP_PKEY_GOSTIMIT	NID_id_Gost28147_89_MAC
+#define EVP_PKEY_HMAC		NID_hmac
+#define EVP_PKEY_CMAC		NID_cmac
+#define EVP_PKEY_HKDF		NID_hkdf
+#define EVP_PKEY_GOSTR12_256	NID_id_tc26_gost3410_2012_256
+#define EVP_PKEY_GOSTR12_512	NID_id_tc26_gost3410_2012_512
+#define EVP_PKEY_ED25519	NID_ED25519
+#define EVP_PKEY_X25519		NID_X25519
 
 #ifdef	__cplusplus
 extern "C" {
@@ -250,10 +253,11 @@ extern "C" {
 #define		EVP_CTRL_AEAD_SET_IVLEN		0x9
 #define		EVP_CTRL_AEAD_GET_TAG		0x10
 #define		EVP_CTRL_AEAD_SET_TAG		0x11
+#define		EVP_CTRL_AEAD_SET_IV_FIXED	0x12
 #define		EVP_CTRL_GCM_SET_IVLEN		EVP_CTRL_AEAD_SET_IVLEN
 #define		EVP_CTRL_GCM_GET_TAG		EVP_CTRL_AEAD_GET_TAG
 #define		EVP_CTRL_GCM_SET_TAG		EVP_CTRL_AEAD_SET_TAG
-#define		EVP_CTRL_GCM_SET_IV_FIXED	0x12
+#define		EVP_CTRL_GCM_SET_IV_FIXED	EVP_CTRL_AEAD_SET_IV_FIXED
 #define		EVP_CTRL_GCM_IV_GEN		0x13
 #define		EVP_CTRL_CCM_SET_IVLEN		EVP_CTRL_AEAD_SET_IVLEN
 #define		EVP_CTRL_CCM_GET_TAG		EVP_CTRL_AEAD_GET_TAG
@@ -279,6 +283,27 @@ extern "C" {
 #define EVP_GCM_TLS_EXPLICIT_IV_LEN			8
 /* Length of tag for TLS */
 #define EVP_GCM_TLS_TAG_LEN				16
+
+/* CCM TLS constants */
+/* Length of fixed part of IV derived from PRF */
+#define EVP_CCM_TLS_FIXED_IV_LEN			4
+/* Length of explicit part of IV part of TLS records */
+#define EVP_CCM_TLS_EXPLICIT_IV_LEN			8
+/* Total length of CCM IV length for TLS */
+#define EVP_CCM_TLS_IV_LEN				12
+/* Length of tag for TLS */
+#define EVP_CCM_TLS_TAG_LEN				16
+/* Length of CCM8 tag for TLS */
+#define EVP_CCM8_TLS_TAG_LEN				8
+
+/* Length of tag for TLS */
+#define EVP_CHACHAPOLY_TLS_TAG_LEN			16
+
+/* XXX - do we want to expose these? */
+#if defined(LIBRESSL_INTERNAL)
+#define ED25519_KEYLEN					32
+#define X25519_KEYLEN					32
+#endif
 
 typedef struct evp_cipher_info_st {
 	const EVP_CIPHER *cipher;
@@ -381,6 +406,37 @@ unsigned char *EVP_CIPHER_CTX_buf_noconst(EVP_CIPHER_CTX *ctx);
 #define EVP_CIPHER_CTX_type(c)         EVP_CIPHER_type(EVP_CIPHER_CTX_cipher(c))
 unsigned long EVP_CIPHER_CTX_flags(const EVP_CIPHER_CTX *ctx);
 #define EVP_CIPHER_CTX_mode(e)		(EVP_CIPHER_CTX_flags(e) & EVP_CIPH_MODE)
+
+EVP_CIPHER *EVP_CIPHER_meth_new(int cipher_type, int block_size, int key_len);
+EVP_CIPHER *EVP_CIPHER_meth_dup(const EVP_CIPHER *cipher);
+void EVP_CIPHER_meth_free(EVP_CIPHER *cipher);
+
+int EVP_CIPHER_meth_set_iv_length(EVP_CIPHER *cipher, int iv_len);
+int EVP_CIPHER_meth_set_flags(EVP_CIPHER *cipher, unsigned long flags);
+int EVP_CIPHER_meth_set_impl_ctx_size(EVP_CIPHER *cipher, int ctx_size);
+int EVP_CIPHER_meth_set_init(EVP_CIPHER *cipher,
+    int (*init)(EVP_CIPHER_CTX *ctx, const unsigned char *key,
+    const unsigned char *iv, int enc));
+int EVP_CIPHER_meth_set_do_cipher(EVP_CIPHER *cipher,
+    int (*do_cipher)(EVP_CIPHER_CTX *ctx, unsigned char *out,
+    const unsigned char *in, size_t inl));
+int EVP_CIPHER_meth_set_cleanup(EVP_CIPHER *cipher,
+    int (*cleanup)(EVP_CIPHER_CTX *));
+int EVP_CIPHER_meth_set_set_asn1_params(EVP_CIPHER *cipher,
+    int (*set_asn1_parameters)(EVP_CIPHER_CTX *, ASN1_TYPE *));
+int EVP_CIPHER_meth_set_get_asn1_params(EVP_CIPHER *cipher,
+    int (*get_asn1_parameters)(EVP_CIPHER_CTX *, ASN1_TYPE *));
+int EVP_CIPHER_meth_set_ctrl(EVP_CIPHER *cipher,
+    int (*ctrl)(EVP_CIPHER_CTX *, int type, int arg, void *ptr));
+
+EVP_PKEY *EVP_PKEY_new_raw_private_key(int type, ENGINE *engine,
+    const unsigned char *private_key, size_t len);
+EVP_PKEY *EVP_PKEY_new_raw_public_key(int type, ENGINE *engine,
+    const unsigned char *public_key, size_t len);
+int EVP_PKEY_get_raw_private_key(const EVP_PKEY *pkey,
+    unsigned char *out_private_key, size_t *out_len);
+int EVP_PKEY_get_raw_public_key(const EVP_PKEY *pkey,
+    unsigned char *out_public_key, size_t *out_len);
 
 #define EVP_ENCODE_LENGTH(l)	(((l+2)/3*4)+(l/48+1)*2+80)
 #define EVP_DECODE_LENGTH(l)	((l+3)/4*3+80)
@@ -679,6 +735,9 @@ const EVP_CIPHER *EVP_aes_256_ccm(void);
 const EVP_CIPHER *EVP_aes_256_gcm(void);
 const EVP_CIPHER *EVP_aes_256_wrap(void);
 const EVP_CIPHER *EVP_aes_256_xts(void);
+#if !defined(OPENSSL_NO_CHACHA) && !defined(OPENSSL_NO_POLY1305)
+const EVP_CIPHER *EVP_chacha20_poly1305(void);
+#endif
 #if !defined(OPENSSL_NO_SHA) && !defined(OPENSSL_NO_SHA1)
 const EVP_CIPHER *EVP_aes_128_cbc_hmac_sha1(void);
 const EVP_CIPHER *EVP_aes_256_cbc_hmac_sha1(void);
@@ -768,6 +827,7 @@ int EVP_PKEY_type(int type);
 int EVP_PKEY_id(const EVP_PKEY *pkey);
 int EVP_PKEY_base_id(const EVP_PKEY *pkey);
 int EVP_PKEY_bits(const EVP_PKEY *pkey);
+int EVP_PKEY_security_bits(const EVP_PKEY *pkey);
 int EVP_PKEY_size(const EVP_PKEY *pkey);
 int EVP_PKEY_set_type(EVP_PKEY *pkey, int type);
 int EVP_PKEY_set_type_str(EVP_PKEY *pkey, const char *str, int len);
@@ -930,6 +990,8 @@ void EVP_PKEY_asn1_set_free(EVP_PKEY_ASN1_METHOD *ameth,
     void (*pkey_free)(EVP_PKEY *pkey));
 void EVP_PKEY_asn1_set_ctrl(EVP_PKEY_ASN1_METHOD *ameth,
     int (*pkey_ctrl)(EVP_PKEY *pkey, int op, long arg1, void *arg2));
+void EVP_PKEY_asn1_set_security_bits(EVP_PKEY_ASN1_METHOD *ameth,
+    int (*pkey_security_bits)(const EVP_PKEY *pkey));
 
 void EVP_PKEY_asn1_set_check(EVP_PKEY_ASN1_METHOD *ameth,
     int (*pkey_check)(const EVP_PKEY *pk));
@@ -1258,10 +1320,6 @@ int EVP_AEAD_CTX_open(const EVP_AEAD_CTX *ctx, unsigned char *out,
 
 void EVP_add_alg_module(void);
 
-/* BEGIN ERROR CODES */
-/* The following lines are auto generated by the script mkerr.pl. Any changes
- * made after this point may be overwritten when the script is next run.
- */
 void ERR_load_EVP_strings(void);
 
 /* Error codes for the EVP functions. */
@@ -1395,6 +1453,7 @@ void ERR_load_EVP_strings(void);
 #define EVP_R_EXPECTING_A_ECDSA_KEY			 141
 #define EVP_R_EXPECTING_A_EC_KEY			 142
 #define EVP_R_FIPS_MODE_NOT_SUPPORTED			 167
+#define EVP_R_GET_RAW_KEY_FAILED			 182
 #define EVP_R_INITIALIZATION_ERROR			 134
 #define EVP_R_INPUT_NOT_INITIALIZED			 111
 #define EVP_R_INVALID_DIGEST				 152
@@ -1416,6 +1475,7 @@ void ERR_load_EVP_strings(void);
 #define EVP_R_NO_OPERATION_SET				 149
 #define EVP_R_NO_SIGN_FUNCTION_CONFIGURED		 104
 #define EVP_R_NO_VERIFY_FUNCTION_CONFIGURED		 105
+#define EVP_R_ONLY_ONESHOT_SUPPORTED			 177
 #define EVP_R_OPERATION_NOT_SUPPORTED_FOR_THIS_KEYTYPE	 150
 #define EVP_R_OPERATON_NOT_INITIALIZED			 151
 #define EVP_R_OUTPUT_ALIASES_INPUT			 172

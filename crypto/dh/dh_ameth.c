@@ -1,4 +1,4 @@
-/* $OpenBSD: dh_ameth.c,v 1.23 2022/01/20 11:00:34 inoguchi Exp $ */
+/* $OpenBSD: dh_ameth.c,v 1.26 2022/12/26 07:18:51 jmc Exp $ */
 /* Written by Dr Stephen N Henson (steve@openssl.org) for the OpenSSL
  * project 2006.
  */
@@ -64,9 +64,9 @@
 #include <openssl/err.h>
 #include <openssl/x509.h>
 
-#include "asn1_locl.h"
+#include "asn1_local.h"
 #include "dh_local.h"
-#include "evp_locl.h"
+#include "evp_local.h"
 
 static void
 int_dh_free(EVP_PKEY *pkey)
@@ -177,7 +177,7 @@ err:
 
 /*
  * PKCS#8 DH is defined in PKCS#11 of all places. It is similar to DH in
- * that the AlgorithmIdentifier contains the paramaters, the private key
+ * that the AlgorithmIdentifier contains the parameters, the private key
  * is explcitly included and the pubkey must be recalculated.
  */
 
@@ -398,6 +398,12 @@ dh_bits(const EVP_PKEY *pkey)
 }
 
 static int
+dh_security_bits(const EVP_PKEY *pkey)
+{
+	return DH_security_bits(pkey->pkey.dh);
+}
+
+static int
 dh_cmp_parameters(const EVP_PKEY *a, const EVP_PKEY *b)
 {
 	if (BN_cmp(a->pkey.dh->p, b->pkey.dh->p) ||
@@ -512,6 +518,7 @@ const EVP_PKEY_ASN1_METHOD dh_asn1_meth = {
 
 	.pkey_size = int_dh_size,
 	.pkey_bits = dh_bits,
+	.pkey_security_bits = dh_security_bits,
 
 	.param_decode = dh_param_decode,
 	.param_encode = dh_param_encode,

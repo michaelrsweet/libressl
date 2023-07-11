@@ -3,8 +3,16 @@
  * are enabled, rather than not being able to tell when things are
  * enabled (or possibly not yet not implemented, or removed!).
  */
+#define LIBRESSL_HAS_QUIC
 #define LIBRESSL_HAS_TLS1_3
 #define LIBRESSL_HAS_DTLS1_2
+
+/*
+ * Used for compatibility with compilers lacking __attribute__
+ */
+#if defined(_MSC_VER) && !defined(__clang__) && !defined(__attribute__)
+#define __attribute__(a)
+#endif
 
 #define OPENSSL_THREADS
 

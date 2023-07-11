@@ -1,4 +1,4 @@
-/* $OpenBSD: a_object.c,v 1.46.2.1 2022/05/14 15:06:09 tb Exp $ */
+/* $OpenBSD: a_object.c,v 1.49 2022/11/26 16:08:50 tb Exp $ */
 /* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
  * All rights reserved.
  *
@@ -66,7 +66,7 @@
 #include <openssl/buffer.h>
 #include <openssl/objects.h>
 
-#include "asn1_locl.h"
+#include "asn1_local.h"
 
 const ASN1_ITEM ASN1_OBJECT_it = {
 	.itype = ASN1_ITYPE_PRIMITIVE,
@@ -529,8 +529,13 @@ c2i_ASN1_OBJECT_cbs(ASN1_OBJECT **out_aobj, CBS *content)
 	size_t data_len;
 	CBS cbs;
 
-	if (out_aobj == NULL || *out_aobj != NULL)
+	if (out_aobj == NULL)
 		goto err;
+
+	if (*out_aobj != NULL) {
+		ASN1_OBJECT_free(*out_aobj);
+		*out_aobj = NULL;
+	}
 
 	/* Parse and validate OID encoding per X.690 8.19.2. */
 	CBS_dup(content, &cbs);

@@ -1,4 +1,4 @@
-/* $OpenBSD: rsa_ameth.c,v 1.25 2022/01/10 11:52:43 tb Exp $ */
+/* $OpenBSD: rsa_ameth.c,v 1.27 2022/11/26 16:08:54 tb Exp $ */
 /* Written by Dr Stephen N Henson (steve@openssl.org) for the OpenSSL
  * project 2006.
  */
@@ -66,10 +66,10 @@
 #include <openssl/err.h>
 #include <openssl/x509.h>
 
-#include "asn1_locl.h"
+#include "asn1_local.h"
 #include "cryptlib.h"
-#include "evp_locl.h"
-#include "rsa_locl.h"
+#include "evp_local.h"
+#include "rsa_local.h"
 
 #ifndef OPENSSL_NO_CMS
 static int rsa_cms_sign(CMS_SignerInfo *si);
@@ -269,6 +269,12 @@ static int
 rsa_bits(const EVP_PKEY *pkey)
 {
 	return BN_num_bits(pkey->pkey.rsa->n);
+}
+
+static int
+rsa_security_bits(const EVP_PKEY *pkey)
+{
+	return RSA_security_bits(pkey->pkey.rsa);
 }
 
 static void
@@ -1103,6 +1109,7 @@ const EVP_PKEY_ASN1_METHOD rsa_asn1_meths[] = {
 
 		.pkey_size = int_rsa_size,
 		.pkey_bits = rsa_bits,
+		.pkey_security_bits = rsa_security_bits,
 
 		.sig_print = rsa_sig_print,
 
