@@ -131,6 +131,7 @@
     <ClCompile Include="..\ssl\ssl_packet.c" />
     <ClCompile Include="..\ssl\ssl_pkt.c" />
     <ClCompile Include="..\ssl\ssl_rsa.c" />
+    <ClCompile Include="..\ssl\ssl_seclevel.c" />
     <ClCompile Include="..\ssl\ssl_sess.c" />
     <ClCompile Include="..\ssl\ssl_sigalgs.c" />
     <ClCompile Include="..\ssl\ssl_srvr.c" />
@@ -144,6 +145,7 @@
     <ClCompile Include="..\ssl\tls_buffer.c" />
     <ClCompile Include="..\ssl\tls_content.c" />
     <ClCompile Include="..\ssl\tls_key_share.c" />
+    <ClCompile Include="..\ssl\tls_lib.c" />
     <ClCompile Include="..\ssl\tls12_key_schedule.c" />
     <ClCompile Include="..\ssl\tls12_lib.c" />
     <ClCompile Include="..\ssl\tls12_record_layer.c" />
@@ -154,6 +156,7 @@
     <ClCompile Include="..\ssl\tls13_key_schedule.c" />
     <ClCompile Include="..\ssl\tls13_legacy.c" />
     <ClCompile Include="..\ssl\tls13_lib.c" />
+    <ClCompile Include="..\ssl\tls13_quic.c" />
     <ClCompile Include="..\ssl\tls13_record.c" />
     <ClCompile Include="..\ssl\tls13_record_layer.c" />
     <ClCompile Include="..\ssl\tls13_server.c" />
