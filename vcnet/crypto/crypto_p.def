@@ -142,6 +142,7 @@ ASN1_TIME_set
 ASN1_TIME_set_string
 ASN1_TIME_set_tm
 ASN1_TIME_to_generalizedtime
+ASN1_TIME_to_tm
 ASN1_TYPE_cmp
 ASN1_TYPE_free
 ASN1_TYPE_get
