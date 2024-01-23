@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="openssl" ToolsVersion="15.0"
+xmlns="http://schemas.microsoft.com/developer/msbuild/2003"> 	<ItemGroup
+Label="ProjectConfigurations"> 		<ProjectConfiguration
+Include="Debug|x64"> 			<Configuration>Debug</Configuration>
+			<Platform>x64</Platform>
+</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|x64"> 			<Configuration>Release</Configuration>
+			<Platform>x64</Platform>
+</ProjectConfiguration>
+</ItemGroup>
+	<PropertyGroup Label="Globals"> 		<ProjectGuid>{48DA1AAE-8F7F-331B-89C2-E7F3CEDE90E1}</ProjectGuid>
+		<RootNamespace>openssl</RootNamespace>
+		<Keyword>Win32Proj</Keyword>
+		<WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup
+Condition="'$(Configuration)|$(Platform)'=='Release|x64'"
+Label="Configuration"> 		<ConfigurationType>Application</ConfigurationType>
+		<PlatformToolset>v142</PlatformToolset>
+		<CharacterSet>Unicode</CharacterSet>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+</PropertyGroup>
+	<PropertyGroup
+Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"
+Label="Configuration"> 		<ConfigurationType>Application</ConfigurationType>
+		<PlatformToolset>v142</PlatformToolset>
+		<CharacterSet>Unicode</CharacterSet>
+</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings"> </ImportGroup>
+	<ImportGroup
+Condition="'$(Configuration)|$(Platform)'=='Release|x64'"
+Label="PropertySheets"> 		<Import
+Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"
+Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')"
+Label="LocalAppDataPlatform" />
+</ImportGroup>
+	<ImportGroup
+Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"
+Label="PropertySheets"> 		<Import
+Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"
+Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')"
+Label="LocalAppDataPlatform" />
+</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup> 		<_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+</PropertyGroup>
+	<PropertyGroup
+Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> 		<OutDir>$(Platform)\$(Configuration)\</OutDir>
+		<IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+		<LinkIncremental>true</LinkIncremental>
+</PropertyGroup>
+	<PropertyGroup
+Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> 		<OutDir>$(Platform)\$(Configuration)\</OutDir>
+		<IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+		<LinkIncremental>false</LinkIncremental>
+</PropertyGroup>
+	<ItemDefinitionGroup
+Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> 		<Midl>
+			<TargetEnvironment>X64</TargetEnvironment>
+</Midl>
+		<ClCompile> 			<Optimization>Disabled</Optimization>
+			<AdditionalIncludeDirectories>..\include;..\apps\openssl;..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8</PreprocessorDefinitions>
+			<MinimalRebuild> </MinimalRebuild>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+			<PrecompiledHeader />
+			<WarningLevel>Level1</WarningLevel>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+</ClCompile>
+		<Link> 			<AdditionalDependencies>$(Platform)\$(Configuration)\ssl.lib;$(Platform)\$(Configuration)\crypto.lib;\crypto.lib;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<SubSystem>Console</SubSystem>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<DataExecutionPrevention />
+			<TargetMachine>MachineX64</TargetMachine>
+</Link>
+</ItemDefinitionGroup>
+	<ItemDefinitionGroup
+Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> 		<Midl>
+			<TargetEnvironment>X64</TargetEnvironment>
+</Midl>
+		<ClCompile> 			<AdditionalIncludeDirectories>..\include;..\apps\openssl;..\include\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8</PreprocessorDefinitions>
+			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+			<PrecompiledHeader />
+			<WarningLevel>Level1</WarningLevel>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+			<MinimalRebuild />
+</ClCompile>
+		<Link> 			<AdditionalDependencies>$(Platform)\$(Configuration)\crypto.lib;\ssl.lib;$(Platform)\$(Configuration)\crypto.lib;;ws2_32.lib;bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<SubSystem>Console</SubSystem>
+			<OptimizeReferences>true</OptimizeReferences>
+			<EnableCOMDATFolding>true</EnableCOMDATFolding>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<DataExecutionPrevention />
+			<TargetMachine>MachineX64</TargetMachine>
+</Link>
+</ItemDefinitionGroup>
+	<ItemGroup> 		<ClCompile
+Include="..\apps\openssl\apps.c" />
+		<ClCompile Include="..\apps\openssl\asn1pars.c" />
+		<ClCompile Include="..\apps\openssl\ca.c" />
+		<ClCompile Include="..\apps\openssl\ciphers.c" />
+		<ClCompile Include="..\apps\openssl\crl.c" />
+		<ClCompile Include="..\apps\openssl\crl2p7.c" />
+		<ClCompile Include="..\apps\openssl\cms.c" />
+		<ClCompile Include="..\apps\openssl\dgst.c" />
+		<ClCompile Include="..\apps\openssl\dh.c" />
+		<ClCompile Include="..\apps\openssl\dhparam.c" />
+		<ClCompile Include="..\apps\openssl\dsa.c" />
+		<ClCompile Include="..\apps\openssl\dsaparam.c" />
+		<ClCompile Include="..\apps\openssl\ec.c" />
+		<ClCompile Include="..\apps\openssl\ecparam.c" />
+		<ClCompile Include="..\apps\openssl\enc.c" />
+		<ClCompile Include="..\apps\openssl\errstr.c" />
+		<ClCompile Include="..\apps\openssl\gendh.c" />
+		<ClCompile Include="..\apps\openssl\gendsa.c" />
+		<ClCompile Include="..\apps\openssl\genpkey.c" />
+		<ClCompile Include="..\apps\openssl\genrsa.c" />
+		<ClCompile Include="..\apps\openssl\nseq.c" />
+		<ClCompile Include="..\apps\openssl\ocsp.c" />
+		<ClCompile Include="..\apps\openssl\openssl.c" />
+		<ClCompile Include="..\apps\openssl\passwd.c" />
+		<ClCompile Include="..\apps\openssl\pkcs12.c" />
+		<ClCompile Include="..\apps\openssl\pkcs7.c" />
+		<ClCompile Include="..\apps\openssl\pkcs8.c" />
+		<ClCompile Include="..\apps\openssl\pkey.c" />
+		<ClCompile Include="..\apps\openssl\pkeyparam.c" />
+		<ClCompile Include="..\apps\openssl\pkeyutl.c" />
+		<ClCompile Include="..\apps\openssl\prime.c" />
+		<ClCompile Include="..\apps\openssl\rand.c" />
+		<ClCompile Include="..\apps\openssl\req.c" />
+		<ClCompile Include="..\apps\openssl\rsa.c" />
+		<ClCompile Include="..\apps\openssl\rsautl.c" />
+		<ClCompile Include="..\apps\openssl\s_cb.c" />
+		<ClCompile Include="..\apps\openssl\s_client.c" />
+		<ClCompile Include="..\apps\openssl\s_server.c" />
+		<ClCompile Include="..\apps\openssl\s_socket.c" />
+		<ClCompile Include="..\apps\openssl\s_time.c" />
+		<ClCompile Include="..\apps\openssl\sess_id.c" />
+		<ClCompile Include="..\apps\openssl\smime.c" />
+		<ClCompile Include="..\apps\openssl\speed.c" />
+		<ClCompile Include="..\apps\openssl\spkac.c" />
+		<ClCompile Include="..\apps\openssl\ts.c" />
+		<ClCompile Include="..\apps\openssl\verify.c" />
+		<ClCompile Include="..\apps\openssl\version.c" />
+		<ClCompile Include="..\apps\openssl\x509.c" />
+		<ClCompile Include="..\apps\openssl\apps_win.c" />
+		<ClCompile Include="..\apps\openssl\certhash_win.c" />
+		<ClCompile Include="..\apps\openssl\compat\poll_win.c" />
+</ItemGroup>
+	<ItemGroup> 		<ProjectReference
+Include="crypto.vcxproj"> 			<Project>{99A79F64-0C4D-3D19-9B2C-820D383AE3E0}</Project>
+			<Name>crypto</Name>
+</ProjectReference>
+		<ProjectReference Include="ssl.vcxproj"> 			<Project>{E56F9FE5-9509-3A85-8242-5F4F5BDB66E8}</Project>
+			<Name>ssl</Name>
+</ProjectReference>
+</ItemGroup>
+</Project>
