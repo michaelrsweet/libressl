@@ -580,8 +580,10 @@ tls13_server_check_certificate(struct tls13_ctx *ctx, SSL_CERT_PKEY *cpk,
 	 * The digitalSignature bit MUST be set if the Key Usage extension is
 	 * present as per RFC 8446 section 4.4.2.2.
 	 */
+#if 0
 	if (!(X509_get_key_usage(cpk->x509) & X509v3_KU_DIGITAL_SIGNATURE))
 		goto done;
+#endif // 0
 
 	if ((sigalg = ssl_sigalg_select(s, cpk->privatekey)) == NULL)
 		goto done;
