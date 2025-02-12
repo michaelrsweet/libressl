@@ -144,7 +144,6 @@
     <ClCompile Include="..\apps\openssl\sess_id.c" />
     <ClCompile Include="..\apps\openssl\smime.c" />
     <ClCompile Include="..\apps\openssl\speed.c" />
-    <ClCompile Include="..\apps\openssl\spkac.c" />
     <ClCompile Include="..\apps\openssl\ts.c" />
     <ClCompile Include="..\apps\openssl\verify.c" />
     <ClCompile Include="..\apps\openssl\version.c" />
