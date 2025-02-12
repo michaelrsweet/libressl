@@ -3,7 +3,7 @@
     <metadata>
         <id>libressl_native.redist</id>
         <title>LibreSSL for VS2019+ Redist</title>
-        <version>3.7.3.0</version>
+        <version>4.0.0</version>
         <authors>Michael R Sweet, LibreSSL, OpenSSL</authors>
         <owners>michaelrsweet</owners>
         <projectUrl>https://www.libressl.org/</projectUrl>

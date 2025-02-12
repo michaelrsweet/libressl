@@ -1,6 +1,8 @@
+# Mike's Fork of LibreSSL 4.0.0 with NuGet packaging support
+
 ![LibreSSL image](https://www.libressl.org/images/libressl.jpg)
 
-## Official portable version of [LibreSSL](https://www.libressl.org)
+## FORK OF Official portable version of [LibreSSL](https://www.libressl.org)
 
 [![Linux Build Status](https://github.com/libressl/portable/actions/workflows/linux.yml/badge.svg)](https://github.com/libressl/portable/actions/workflows/linux.yml)
 [![macOS Build Status](https://github.com/libressl/portable/actions/workflows/macos.yml/badge.svg)](https://github.com/libressl/portable/actions/workflows/macos.yml)
@@ -71,11 +73,11 @@ sent to the core team at libressl-security@openbsd.org.
 
 ## Building from a Git checkout
 
-If you have checked out this source using Git, or have downloaded a source 
+If you have checked out this source using Git, or have downloaded a source
 tarball from GitHub, follow these initial steps to prepare the source tree for
 building. _Note: Your build will fail if you do not follow these instructions!
-If you cannot follow these instructions or cannot meet these prerequisites, 
-please download an official release distribution from 
+If you cannot follow these instructions or cannot meet these prerequisites,
+please download an official release distribution from
 https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/ instead. Using official
 releases is strongly advised if you are not a developer._
 
