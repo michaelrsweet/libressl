@@ -56,7 +56,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\crypto\bio;..\ssl;..\include\compat;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\crypto;..\crypto\arch\amd64;..\crypto\bio;..\ssl;..\include\compat;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>HAVE_LITTLE_ENDIAN;%(PreprocessorDefinitions);WIN32;_WINDOWS;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;ssl_EXPORTS</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -83,7 +83,7 @@
     </Midl>
     <ClCompile>
       <Optimization>MinSpace</Optimization>
-      <AdditionalIncludeDirectories>..\crypto\bio;..\ssl;..\include\compat;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\crypto;..\crypto\arch\amd64;..\crypto\bio;..\ssl;..\include\compat;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>HAVE_LITTLE_ENDIAN;%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;ssl_EXPORTS</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader />
@@ -113,6 +113,7 @@
     <ClCompile Include="..\ssl\d1_lib.c" />
     <ClCompile Include="..\ssl\d1_pkt.c" />
     <ClCompile Include="..\ssl\d1_srtp.c" />
+    <ClCompile Include="..\ssl\empty.c" />
     <ClCompile Include="..\ssl\pqueue.c" />
     <ClCompile Include="..\ssl\s3_cbc.c" />
     <ClCompile Include="..\ssl\s3_lib.c" />
@@ -163,6 +164,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ssl\ssl.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ssl\bytestring.h" />
+    <ClInclude Include="..\ssl\dtls_local.h" />
+    <ClInclude Include="..\ssl\srtp.h" />
+    <ClInclude Include="..\ssl\ssl_local.h" />
+    <ClInclude Include="..\ssl\ssl_sigalgs.h" />
+    <ClInclude Include="..\ssl\ssl_tlsext.h" />
+    <ClInclude Include="..\ssl\tls12_internal.h" />
+    <ClInclude Include="..\ssl\tls13_handshake.h" />
+    <ClInclude Include="..\ssl\tls13_internal.h" />
+    <ClInclude Include="..\ssl\tls13_record.h" />
+    <ClInclude Include="..\ssl\tls_content.h" />
+    <ClInclude Include="..\ssl\tls_internal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

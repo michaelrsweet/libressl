@@ -40,8 +40,6 @@ SSL_CIPHER_description
 SSL_CIPHER_find
 SSL_CIPHER_get_auth_nid
 SSL_CIPHER_get_bits
-SSL_CIPHER_get_by_id
-SSL_CIPHER_get_by_value
 SSL_CIPHER_get_cipher_nid
 SSL_CIPHER_get_digest_nid
 SSL_CIPHER_get_id
@@ -50,7 +48,6 @@ SSL_CIPHER_get_name
 SSL_CIPHER_get_value
 SSL_CIPHER_get_version
 SSL_CIPHER_is_aead
-SSL_COMP_add_compression_method
 SSL_COMP_get_compression_methods
 SSL_COMP_get_name
 SSL_CTX_add0_chain_cert
@@ -111,7 +108,6 @@ SSL_CTX_set_cipher_list
 SSL_CTX_set_ciphersuites
 SSL_CTX_set_client_CA_list
 SSL_CTX_set_client_cert_cb
-SSL_CTX_set_client_cert_engine
 SSL_CTX_set_cookie_generate_cb
 SSL_CTX_set_cookie_verify_cb
 SSL_CTX_set_default_passwd_cb
@@ -291,7 +287,6 @@ SSL_set_cipher_list
 SSL_set_ciphersuites
 SSL_set_client_CA_list
 SSL_set_connect_state
-SSL_set_debug
 SSL_set_ex_data
 SSL_set_fd
 SSL_set_generate_session_id
@@ -342,7 +337,6 @@ SSL_use_certificate_chain_file
 SSL_use_certificate_file
 SSL_verify_client_post_handshake
 SSL_version
-SSL_version_str
 SSL_want
 SSL_write
 SSL_write_early_data

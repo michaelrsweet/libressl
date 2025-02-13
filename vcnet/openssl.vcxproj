@@ -121,7 +121,6 @@
     <ClCompile Include="..\apps\openssl\gendsa.c" />
     <ClCompile Include="..\apps\openssl\genpkey.c" />
     <ClCompile Include="..\apps\openssl\genrsa.c" />
-    <ClCompile Include="..\apps\openssl\nseq.c" />
     <ClCompile Include="..\apps\openssl\ocsp.c" />
     <ClCompile Include="..\apps\openssl\openssl.c" />
     <ClCompile Include="..\apps\openssl\passwd.c" />
@@ -161,6 +160,14 @@
       <Project>{E56F9FE5-9509-3A85-8242-5F4F5BDB66E8}</Project>
       <Name>ssl</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\apps\openssl\apps.h" />
+    <ClInclude Include="..\apps\openssl\progs.h" />
+    <ClInclude Include="..\apps\openssl\s_apps.h" />
+    <ClInclude Include="..\apps\openssl\testdsa.h" />
+    <ClInclude Include="..\apps\openssl\testrsa.h" />
+    <ClInclude Include="..\apps\openssl\timeouts.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

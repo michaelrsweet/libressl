@@ -56,7 +56,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\crypto;..\crypto\arch\amd64;..\crypto\asn1;..\crypto\bio;..\crypto\bn;..\crypto\bn\arch\amd64;..\crypto\bytestring;..\crypto\conf;..\crypto\curve25519;..\crypto\dh;..\crypto\dsa;..\crypto\ec;..\crypto\ecdh;..\crypto\ecdsa;..\crypto\err;..\crypto\evp;..\crypto\hmac;..\crypto\modes;..\crypto\ocsp;..\crypto\pkcs12;..\crypto\rsa;..\crypto\sha;..\crypto\x509;..\include\compat;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\crypto;..\crypto\arch\amd64;..\crypto\asn1;..\crypto\bio;..\crypto\bn;..\crypto\bn\arch\amd64;..\crypto\bytestring;..\crypto\conf;..\crypto\curve25519;..\crypto\dh;..\crypto\dsa;..\crypto\ec;..\crypto\ecdh;..\crypto\ecdsa;..\crypto\err;..\crypto\evp;..\crypto\hmac;..\crypto\modes;..\crypto\ocsp;..\crypto\pkcs12;..\crypto\rsa;..\crypto\sha;..\crypto\stack;..\crypto\x509;..\include\compat;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>HAVE_LITTLE_ENDIAN;%(PreprocessorDefinitions);WIN32;_WINDOWS;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;OPENSSL_NO_ASM;OPENSSLDIR="C:/Windows/libressl/ssl";crypto_EXPORTS</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -83,7 +83,7 @@
     </Midl>
     <ClCompile>
       <Optimization>MinSpace</Optimization>
-      <AdditionalIncludeDirectories>..\crypto;..\crypto\arch\amd64;..\crypto\asn1;..\crypto\bio;..\crypto\bn;..\crypto\bn\arch\amd64;..\crypto\bytestring;..\crypto\conf;..\crypto\curve25519;..\crypto\dh;..\crypto\dsa;..\crypto\ec;..\crypto\ecdh;..\crypto\ecdsa;..\crypto\err;..\crypto\evp;..\crypto\hmac;..\crypto\modes;..\crypto\ocsp;..\crypto\pkcs12;..\crypto\rsa;..\crypto\sha;..\crypto\x509;..\include\compat;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\crypto;..\crypto\arch\amd64;..\crypto\asn1;..\crypto\bio;..\crypto\bn;..\crypto\bn\arch\amd64;..\crypto\bytestring;..\crypto\conf;..\crypto\curve25519;..\crypto\dh;..\crypto\dsa;..\crypto\ec;..\crypto\ecdh;..\crypto\ecdsa;..\crypto\err;..\crypto\evp;..\crypto\hmac;..\crypto\modes;..\crypto\ocsp;..\crypto\pkcs12;..\crypto\rsa;..\crypto\sha;..\crypto\stack;..\crypto\x509;..\include\compat;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>HAVE_LITTLE_ENDIAN;%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GNU_SOURCE;_POSIX;_POSIX_SOURCE;__USE_MINGW_ANSI_STDIO;LIBRESSL_INTERNAL;OPENSSL_NO_HW_PADLOCK;__BEGIN_HIDDEN_DECLS=;__END_HIDDEN_DECLS=;_CRT_SECURE_NO_WARNINGS;_CRT_DEPRECATED_NO_WARNINGS;_REENTRANT;_POSIX_THREAD_SAFE_FUNCTIONS;CPPFLAGS;NO_SYSLOG;NO_CRYPT;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0600;inline=__inline;HAVE_STRNLEN;SIZEOF_TIME_T=8;LIBRESSL_CRYPTO_INTERNAL;OPENSSL_NO_ASM;OPENSSLDIR="C:/Windows/libressl/ssl";crypto_EXPORTS</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader />
@@ -105,23 +105,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\crypto\aes\aes.c" />
     <ClCompile Include="..\crypto\aes\aes_core.c" />
     <ClCompile Include="..\crypto\asn1\a_time_posix.c" />
     <ClCompile Include="..\crypto\bf\blowfish.c" />
+    <ClCompile Include="..\crypto\bn\bn_convert.c" />
+    <ClCompile Include="..\crypto\bn\bn_mod.c" />
+    <ClCompile Include="..\crypto\bn\bn_mod_sqrt.c" />
+    <ClCompile Include="..\crypto\bn\bn_primitives.c" />
     <ClCompile Include="..\crypto\camellia\camellia.c" />
     <ClCompile Include="..\crypto\cast\cast.c" />
     <ClCompile Include="..\crypto\crypto_ex_data.c" />
+    <ClCompile Include="..\crypto\des\des.c" />
+    <ClCompile Include="..\crypto\des\des_cksum.c" />
+    <ClCompile Include="..\crypto\des\des_fcrypt.c" />
+    <ClCompile Include="..\crypto\des\des_key.c" />
+    <ClCompile Include="..\crypto\ecdh\ecdh.c" />
+    <ClCompile Include="..\crypto\ecdsa\ecdsa.c" />
     <ClCompile Include="..\crypto\evp\evp_cipher.c" />
     <ClCompile Include="..\crypto\evp\evp_digest.c" />
     <ClCompile Include="..\crypto\evp\evp_encode.c" />
     <ClCompile Include="..\crypto\evp\evp_names.c" />
+    <ClCompile Include="..\crypto\evp\m_sha3.c" />
     <ClCompile Include="..\crypto\evp\p_legacy.c" />
     <ClCompile Include="..\crypto\idea\idea.c" />
     <ClCompile Include="..\crypto\cpt_err.c" />
     <ClCompile Include="..\crypto\cryptlib.c" />
     <ClCompile Include="..\crypto\crypto_init.c" />
     <ClCompile Include="..\crypto\cversion.c" />
+    <ClCompile Include="..\crypto\kdf\tls1_prf.c" />
     <ClCompile Include="..\crypto\malloc-wrapper.c" />
+    <ClCompile Include="..\crypto\md4\md4.c" />
+    <ClCompile Include="..\crypto\md5\md5.c" />
     <ClCompile Include="..\crypto\mem_clr.c" />
     <ClCompile Include="..\crypto\mem_dbg.c" />
     <ClCompile Include="..\crypto\o_fips.c" />
@@ -214,15 +229,11 @@
     <ClCompile Include="..\crypto\bn\bn_err.c" />
     <ClCompile Include="..\crypto\bn\bn_exp.c" />
     <ClCompile Include="..\crypto\bn\bn_gcd.c" />
-    <ClCompile Include="..\crypto\bn\bn_gf2m.c" />
     <ClCompile Include="..\crypto\bn\bn_isqrt.c" />
     <ClCompile Include="..\crypto\bn\bn_kron.c" />
     <ClCompile Include="..\crypto\bn\bn_lib.c" />
-    <ClCompile Include="..\crypto\bn\bn_mod.c" />
     <ClCompile Include="..\crypto\bn\bn_mont.c" />
-    <ClCompile Include="..\crypto\bn\bn_mpi.c" />
     <ClCompile Include="..\crypto\bn\bn_mul.c" />
-    <ClCompile Include="..\crypto\bn\bn_nist.c" />
     <ClCompile Include="..\crypto\bn\bn_prime.c" />
     <ClCompile Include="..\crypto\bn\bn_print.c" />
     <ClCompile Include="..\crypto\bn\bn_rand.c" />
@@ -230,9 +241,7 @@
     <ClCompile Include="..\crypto\bn\bn_shift.c" />
     <ClCompile Include="..\crypto\bn\bn_small_primes.c" />
     <ClCompile Include="..\crypto\bn\bn_sqr.c" />
-    <ClCompile Include="..\crypto\bn\bn_sqrt.c" />
     <ClCompile Include="..\crypto\bn\bn_word.c" />
-    <ClCompile Include="..\crypto\bn\bn_x931p.c" />
     <ClCompile Include="..\crypto\buffer\buf_err.c" />
     <ClCompile Include="..\crypto\buffer\buf_str.c" />
     <ClCompile Include="..\crypto\buffer\buffer.c" />
@@ -329,7 +338,6 @@
     <ClCompile Include="..\crypto\evp\bio_enc.c" />
     <ClCompile Include="..\crypto\evp\bio_md.c" />
     <ClCompile Include="..\crypto\evp\e_aes.c" />
-    <ClCompile Include="..\crypto\evp\e_aes_cbc_hmac_sha1.c" />
     <ClCompile Include="..\crypto\evp\e_bf.c" />
     <ClCompile Include="..\crypto\evp\e_camellia.c" />
     <ClCompile Include="..\crypto\evp\e_cast.c" />
@@ -339,7 +347,6 @@
     <ClCompile Include="..\crypto\evp\e_des3.c" />
     <ClCompile Include="..\crypto\evp\e_idea.c" />
     <ClCompile Include="..\crypto\evp\e_null.c" />
-    <ClCompile Include="..\crypto\evp\e_old.c" />
     <ClCompile Include="..\crypto\evp\e_rc2.c" />
     <ClCompile Include="..\crypto\evp\e_rc4.c" />
     <ClCompile Include="..\crypto\evp\e_sm4.c" />
@@ -434,8 +441,10 @@
     <ClCompile Include="..\crypto\rc2\rc2cfb64.c" />
     <ClCompile Include="..\crypto\rc2\rc2ofb64.c" />
     <ClCompile Include="..\crypto\rc4\rc4.c" />
+    <ClCompile Include="..\crypto\ripemd\ripemd.c" />
     <ClCompile Include="..\crypto\rsa\rsa_ameth.c" />
     <ClCompile Include="..\crypto\rsa\rsa_asn1.c" />
+    <ClCompile Include="..\crypto\rsa\rsa_blinding.c" />
     <ClCompile Include="..\crypto\rsa\rsa_chk.c" />
     <ClCompile Include="..\crypto\rsa\rsa_depr.c" />
     <ClCompile Include="..\crypto\rsa\rsa_eay.c" />
@@ -452,7 +461,9 @@
     <ClCompile Include="..\crypto\rsa\rsa_saos.c" />
     <ClCompile Include="..\crypto\rsa\rsa_sign.c" />
     <ClCompile Include="..\crypto\rsa\rsa_x931.c" />
+    <ClCompile Include="..\crypto\sha\sha1.c" />
     <ClCompile Include="..\crypto\sha\sha256.c" />
+    <ClCompile Include="..\crypto\sha\sha3.c" />
     <ClCompile Include="..\crypto\sha\sha512.c" />
     <ClCompile Include="..\crypto\sm3\sm3.c" />
     <ClCompile Include="..\crypto\sm4\sm4.c" />
@@ -505,6 +516,7 @@
     <ClCompile Include="..\crypto\x509\x509_pcons.c" />
     <ClCompile Include="..\crypto\x509\x509_pku.c" />
     <ClCompile Include="..\crypto\x509\x509_pmaps.c" />
+    <ClCompile Include="..\crypto\x509\x509_policy.c" />
     <ClCompile Include="..\crypto\x509\x509_prn.c" />
     <ClCompile Include="..\crypto\x509\x509_purp.c" />
     <ClCompile Include="..\crypto\x509\x509_r2x.c" />
@@ -551,6 +563,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="crypto\crypto_p.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\crypto\aes\aes_local.h" />
+    <ClInclude Include="..\crypto\aes\aes_locl.h" />
+    <ClInclude Include="..\crypto\bn\bn_internal.h" />
+    <ClInclude Include="..\crypto\bn\bn_local.h" />
+    <ClInclude Include="..\crypto\bn\bn_prime.h" />
+    <ClInclude Include="..\crypto\des\des_local.h" />
+    <ClInclude Include="..\crypto\ecdsa\ecdsa_local.h" />
+    <ClInclude Include="..\crypto\evp\evp_local.h" />
+    <ClInclude Include="..\crypto\ripemd\rmdconst.h" />
+    <ClInclude Include="..\crypto\rsa\rsa_local.h" />
+    <ClInclude Include="..\crypto\rsa\rsa_locl.h" />
+    <ClInclude Include="..\crypto\sha\sha3_internal.h" />
+    <ClInclude Include="..\crypto\sha\sha_internal.h" />
+    <ClInclude Include="..\crypto\x509\x509_internal.h" />
+    <ClInclude Include="..\crypto\x509\x509_issuer_cache.h" />
+    <ClInclude Include="..\crypto\x509\x509_local.h" />
+    <ClInclude Include="..\crypto\x509\x509_verify.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

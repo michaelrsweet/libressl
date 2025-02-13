@@ -124,5 +124,8 @@
   <ItemGroup>
     <None Include="tls\tls.def" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\tls\tls_internal.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>
