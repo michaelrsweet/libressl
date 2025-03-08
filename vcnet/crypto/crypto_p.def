@@ -890,6 +890,14 @@ DSO_set_name_converter
 DSO_up_ref
 ECDH_compute_key
 ECDH_size
+ECDSA_SIG_new
+ECDSA_SIG_free
+ECDSA_SIG_get0
+ECDSA_SIG_get0_r
+ECDSA_SIG_get0_s
+ECDSA_SIG_set0
+ECDSA_do_sign
+ECDSA_do_verify
 ECDSA_sign
 ECDSA_size
 ECDSA_verify
